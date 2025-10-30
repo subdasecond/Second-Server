@@ -1,0 +1,20 @@
+speed:
+  walk:
+    max: 10.0
+    min: -10.0
+  fly:
+    max: 10.0
+    min: -10.0
+flight:
+  persistent:
+    session: true
+    world-change: true
+    respawn: true
+    gamemode: true
+rename:
+  max-characters: 50 # Going over 50 characters may cause unwanted visual effects such as the
+# tooltip going off the screen
+hat:
+  respect-curse-of-binding: true
+  disabled-items:
+  - DEBUG_STICK

@@ -1,0 +1,44 @@
+solar_flare:
+  hard:
+    enabled_boss: true
+    damage_per_seconds: 5
+    duration_seconds: 300
+    damage_interval_seconds: 1
+    nausea_probability: 0.5
+    ignite_probability: 0.5
+    nether_mobs_probability: 0.5
+    boss_spawn_probability: 0.7
+
+acid_rain:
+  hard:
+    enabled_boss: true
+    boss_spawn_probability: 0.7
+    rain_mobs_probability: 0.5
+    duration_seconds: 300
+    duration_poison_effect: 4
+    damage_per_seconds: 3
+    nether_mobs_probability: 0.5
+
+electric_storm:
+  hard:
+    enabled_boss: true
+    duration_seconds: 300
+    damage_per_seconds: 5
+    nether_mobs_probability: 0.5
+    boss_spawn_probability: 0.7
+    strike_lightning_probability: 0.5
+    storm_mobs_probability: 0.5
+    number_of_mobs: 5
+    interval_strike_lightning_seconds: 5
+
+frozen_blast:
+  hard:
+    enabled_boss: true
+    duration_seconds: 300
+    damage_per_seconds: 2
+    nether_mobs_probability: 0.5
+    boss_spawn_probability: 0.7
+    blindness_duration_seconds: 3
+    blindness_effect_probability: 0.5
+    falling_snowballs_probability: 0.4
+    snowball_damage: 3

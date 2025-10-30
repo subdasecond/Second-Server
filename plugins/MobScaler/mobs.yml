@@ -1,0 +1,188 @@
+# CONFIGURACIÓN DE PRODUCCIÓN - BALANCEADA PARA SERVIDORES
+# Esta configuración está optimizada para gameplay balanceado
+
+mobs:
+  # ZOMBIE - Configuración balanceada
+  zombie:
+    enabled: true
+    chance: 5.0    # 5% probabilidad base
+    scales:
+      "0.6": 25.0     # Zombie pequeño (25%)
+      "0.8": 20.0     # Zombie reducido (20%)
+      "1.3": 25.0     # Zombie grande (25%)
+      "1.7": 20.0     # Zombie muy grande (20%)
+      "2.2": 8.0      # Zombie gigante (8%)
+      "3.0": 2.0      # Zombie colosal (2%)
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 800.0
+    max-damage: 40.0
+
+  # SKELETON - Configuración balanceada
+  skeleton:
+    enabled: true
+    chance: 6.0    # 6% probabilidad base
+    scales:
+      "0.7": 30.0     # Esqueleto pequeño
+      "0.9": 25.0     # Esqueleto reducido
+      "1.4": 25.0     # Esqueleto grande
+      "1.8": 15.0     # Esqueleto muy grande
+      "2.5": 4.0      # Esqueleto gigante
+      "3.2": 1.0      # Esqueleto colosal
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 600.0
+    max-damage: 35.0
+
+  # CREEPER - Configuración balanceada (cuidado con los grandes)
+  creeper:
+    enabled: true
+    chance: 10.0    # 10% probabilidad base (menor por peligrosidad)
+    scales:
+      "0.5": 35.0     # Micro creeper (menos daño)
+      "0.7": 30.0     # Creeper pequeño
+      "1.2": 20.0     # Creeper grande
+      "1.6": 12.0     # Creeper muy grande
+      "2.0": 3.0      # Creeper gigante (¡peligroso!)
+    scale-health: true
+    scale-damage: false  # NO escalar daño de explosión
+    scale-experience: true
+    max-health: 500.0
+    max-damage: 25.0
+
+  # SPIDER - Configuración balanceada
+  spider:
+    enabled: true
+    chance: 13.0    # 13% probabilidad base
+    scales:
+      "0.4": 20.0     # Araña mini
+      "0.7": 25.0     # Araña pequeña
+      "1.3": 30.0     # Araña grande
+      "1.8": 20.0     # Araña muy grande
+      "2.4": 4.0      # Araña gigante
+      "3.1": 1.0      # Araña colosal
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 700.0
+    max-damage: 30.0
+
+  # ENDERMAN - Configuración balanceada
+  enderman:
+    enabled: true
+    chance: 3.0     # 3% probabilidad (menor por su poder)
+    scales:
+      "0.6": 20.0     # Enderman pequeño
+      "0.8": 25.0     # Enderman reducido
+      "1.2": 30.0     # Enderman grande
+      "1.6": 20.0     # Enderman muy grande
+      "2.1": 4.0      # Enderman gigante
+      "2.8": 1.0      # Enderman colosal
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 1200.0
+    max-damage: 50.0
+
+  # WITCH - Configuración balanceada
+  witch:
+    enabled: true
+    chance: 14.0
+    scales:
+      "0.6": 30.0     # Bruja pequeña
+      "0.9": 25.0     # Bruja reducida
+      "1.3": 25.0     # Bruja grande
+      "1.8": 15.0     # Bruja muy grande
+      "2.3": 4.0      # Bruja gigante
+      "3.0": 1.0      # Bruja colosal
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 600.0
+    max-damage: 25.0
+
+  # HUSK - Variante de zombie del desierto
+  husk:
+    enabled: true
+    chance: 10.0
+    scales:
+      "0.6": 25.0
+      "0.8": 25.0
+      "1.4": 25.0
+      "1.9": 20.0
+      "2.4": 4.0
+      "3.1": 1.0
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 750.0
+    max-damage: 38.0
+
+  # STRAY - Esqueleto del hielo
+  stray:
+    enabled: true
+    chance: 8.0
+    scales:
+      "0.7": 30.0
+      "0.9": 25.0
+      "1.3": 25.0
+      "1.7": 15.0
+      "2.2": 4.0
+      "2.9": 1.0
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 550.0
+    max-damage: 32.0
+
+  # DROWNED - Zombie acuático
+  drowned:
+    enabled: true
+    chance: 3.0
+    scales:
+      "0.6": 25.0
+      "0.8": 25.0
+      "1.3": 25.0
+      "1.7": 20.0
+      "2.1": 4.0
+      "2.8": 1.0
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 650.0
+    max-damage: 35.0
+
+  # PILLAGER - Saqueador
+  pillager:
+    enabled: true
+    chance: 9.0
+    scales:
+      "0.7": 30.0
+      "0.9": 30.0
+      "1.2": 25.0
+      "1.6": 12.0
+      "2.0": 3.0
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 500.0
+    max-damage: 28.0
+
+  # VINDICATOR - Guerrero con hacha
+  vindicator:
+    enabled: true
+    chance: 5.0
+    scales:
+      "0.7": 25.0
+      "0.9": 30.0
+      "1.3": 25.0
+      "1.7": 15.0
+      "2.2": 4.0
+      "2.9": 1.0
+    scale-health: true
+    scale-damage: true
+    scale-experience: true
+    max-health: 700.0
+    max-damage: 45.0

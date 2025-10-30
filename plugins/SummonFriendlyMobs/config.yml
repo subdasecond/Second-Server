@@ -1,0 +1,11 @@
+FriendlyWarden: false # Toggle whether wardens summoned by the plugin are friendly to the summoner.
+WardenCheckInterval: 1 # Number of ticks between each check to clear Warden's anger to its summoner
+UniversallyFriendly: false # Toggle whether mobs summoned by this plugin are Friendly to only the summoner or to all player
+SaveFriendliness: false # Toggle whether to keep friendliness of the mobs even after the server restarts
+SaveWardenFriendliness: false # Toggle whether to keep friendliness of the wardens even after the server restarts
+UpdateNotifier: true # Toggle whether to notify for newer versions of the plugin
+AllowAttack: true # Toggle whether to allow players to use /attack command or not
+AllowCustomMobSettings: false # Toggle whether to use settings for mobs from mobs.yml or not
+Taming: false # Toggle whether to allow Taming
+bStats: false # Toggle whether to send bStats data
+MobsFollowDuration: 30 # The duration for which mobs will follow their owner with /mobsfollow (in seconds, assuming game at 20tps)

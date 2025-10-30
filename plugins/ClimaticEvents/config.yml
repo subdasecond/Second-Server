@@ -1,0 +1,45 @@
+# This file is used to configure the general settings of the plugin.
+# After changing and saving the options you must reload the plugin. Use "/climaticevents reload".
+# You can use the "/climaticevents panel" command to better configure the plugin in-game.
+
+# The languages available at the moment are: es, en (spanish, english).
+# You can go to the /languages folder to modify the messages for each language as you wish.
+language: "en"
+
+# Enable or disable the plugin.
+enabled: true
+
+# Set the difficulty mode of the events.
+mode: "normal"
+
+# Set the interval of days for the random events.
+# The interval days means the days in Minecraft that the plugin will wait to start a new random event.
+interval_days: 5
+
+# Set the delay in seconds before starting the random event.
+delay_event_start: 10
+
+# Set the radius of the chest spawn.
+# The radius is the distance in blocks that the chest will spawn from the 0,0 coordinates.
+# It is preferable that the set radius is preloaded.
+# We recommend to set a value between 500 and 1000.
+radius_chest_spawn: 500
+
+# Enable or disable the spawn of the chest during the events.
+chest_drop: true
+
+# Removes mobs generated during events at the end of an event. This includes the bosses.
+# This option can help to save resources and improve performance.
+remove_mobs_after_events: true
+
+# Use \n\n to make a line break
+# Leave messages empty to remove prefixes and suffixes ("").
+messages:
+  prefix: "-----------| &lClimatic&d&lEvents&r |-----------\n\n"
+  suffix: "\n\n&r--------------------------------------"
+  page_suffix:
+    page_1: "\n\n&r--------------| &epage&r 1/4 |--------------"
+    page_2: "\n\n&r--------------| &epage&r 2/4 |--------------"
+    page_3: "\n\n&r--------------| &epage&r 3/4 |--------------"
+    page_4: "\n\n&r--------------| &epage&r 4/4 |--------------"
+

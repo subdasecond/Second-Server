@@ -1,0 +1,254 @@
+#================================================== ================================================#
+# Lars_SVW'nin İlaç Eklentisi için mesaj dosyası. Sürüm 2.4.0
+#================================================== ================================================#
+#
+# Yardıma ihtiyacınız varsa, hataları bildirmek istiyorsanız vb.
+# Discord'uma katılmaktan çekinmeyin: http://coding.lars-svw.eu
+#
+# Bana Discord'dan da özel mesaj gönderebilirsin: Lars_SVW
+# Veya bana doğrudan Spigotmc'den yazın: https://www.spigotmc.org/members/lars__svw.1064569/
+
+#================================================== ================================================#
+# Genel bilgi:
+#================================================== ================================================#
+# Burada her şeyi düzenleyebilirsiniz ancak lütfen "verildiyse" ifadesini unutmayın.
+# Eklenti olası tüm sunucularda kullanılabilir.
+# Bununla birlikte, eklentiyi oluşturan kişi hatalar veya diğer şeyler için hiçbir sorumluluk kabul etmez.
+# eklentiyle alakalı. Eklenti tekrar yüklenemez ve satılamaz.
+# diğer kullanıcılara! Eklentinin farklı bir sürümüne ihtiyacınız varsa lütfen benimle iletişime geçin
+# yukarıdaki iletişim seçeneklerini kullanarak.
+
+#================================================== ================================================#
+# Renk Kodları:
+#================================================== ================================================#
+# &0 = Siyah &a = Parlak Yeşil &o = İtalik(Cursiv)
+# &1 = Koyu Mavi &b = Açık Mavi &r = Sıfırla
+# &2 = Koyu Yeşil &c = Kırmızı
+# &3 = Koyu Deniz Mavisi &d = Pembe
+# &4 = Koyu Kırmızı &e = Sarı
+# &5 = Mor &f = Beyaz
+# &6 = Altın &k = Sürekli değişen karakterler
+# &7 = Gri &l = Kalın
+# &8 = Koyu Gri &m = Vuruş
+# &9 = İndigo &n = Altı Çizili
+
+#=================================================================================================#
+# Genel yapılandırma:
+#===================================================================================================#
+prefix: "&0&l[&a&lDrugs&0&l]"
+false_usage: "%prefix% &cYanlış kullanım! Doğru kullanım: %usage%"
+invalid_drug: "%prefix% &cGeçersiz ilaç belirtildi!"
+invalid_amount: "%prefix% &cGeçersiz miktar belirtildi!"
+only_players: "%prefix% &cYalnızca oyuncular bu Komutu yürütme yetkisine sahiptir! Lütfen Sunucuya bir Hesapla katılın!"
+book_name: "&eİlaç Kitabı"
+Drug_book_lore: "&Lars_SVW'nin Drugs eklentisinden eUyuşturucu kitabı"
+received_book: "%prefix% &eLars_SVW'nin Drugs eklentisinden ilaç kitabını başarıyla aldınız. Bu kitapta tüm tariflerin listesi var!"
+reload_started: "%prefix% &aYeniden Yükleme başladı!"
+reload_finished: "%prefix% &aYeniden Yükleme tamamlandı"
+Drugs_received: "&e%amount% %drugname% aldınız"
+no_authorization: "&cBunu yapmaya hakkınız yok!"
+player_not_found: "%prefix% &cPlayer bulunamadı!"
+vault_not_installed: "%prefix% §cVault yüklü değil! Bir Yönetici ile iletişime geçin!"
+
+#================================================== ================================================#
+# Ot yapılandırması:
+#================================================== ================================================#
+weed_seed_name: "&aOt Tohumu"
+weed_name: "&aOt"
+weed_lore: "&aBunu ortak oluşturmak için kullanabilirsin"
+weed_seed_lore: "&aBu tohumu yeni ot yaratmak için kullanabilirsin."
+joint_name: "&aOrtak"
+joint_lore: "&aAydınlatmak için bir Zippo'ya ihtiyacın var."
+weed_death: "&bir %player% aşırı dozda ot yüzünden öldü."
+
+#================================================== ================================================#
+# Kokain konfigürasyonu:
+#================================================== ================================================#
+cocaine_name: "&aKokain"
+cocaine_lore: "&aKendini iyi hissetmek için tüketebilirsin."
+cocaine_seed_name: "&aKokain Fabrikası"
+cocaine_seed_lore: "&aBu tohumu yeni kokain oluşturmak için kullanabilirsiniz."
+cocaine_death: "&bir %player% aşırı dozda kokain yüzünden öldü."
+
+#================================================== ================================================#
+# Tütün yapılandırması:
+#================================================== ================================================#
+tobacco_seed_name: "&Tütün Bitkisi"
+tobacco_lore: "&aBununla sigara sarmak için kullanabilirsiniz."
+tobacco_seed_lore: "&aBu tohumu yeni Tütün oluşturmak için kullanabilirsiniz."
+tobacco_name: "&aTütün"
+cigarette_name: "&aSigara"
+cigarette_lore: "&aBunu kafayı bulmak için kullanabilirsin."
+lung_cancer: "&bir %player% akciğer kanserinden dolayı öldü!"
+
+#================================================== ================================================#
+# Kağıtlar + Tutkal konfigürasyonu:
+#================================================== ================================================#
+papes_name: "&aPapes"
+papes_lore: "&aSigara sarmak için ona ihtiyacın var."
+long_papes_name: "&Uzun Kağıtlar"
+long_papes_lore: "&aEtkiyi yuvarlamak için ona ihtiyacın var."
+glue_bottle_name: "&aTutkal Şişesi"
+glue_bottle_lore: "&aUzun kağıtlar oluşturmak için ona ihtiyacın var."
+
+#================================================== ================================================#
+# Zippo yapılandırması:
+#================================================== ================================================#
+zippo_name: "&aZippo"
+zippo_lore: "&aEtrafta ya da sigara yakmak için ona ihtiyacın var."
+need_zippo: "&cBunu aydınlatmak için bir zippoya ihtiyacın var!"
+
+#================================================== ================================================#
+# Shroom yapılandırması:
+#================================================== ================================================#
+shroom_name: "&aMantarlar"
+shroom_lore: "&aBunu kafayı bulmak için kullanabilirsin."
+shroom_death: "&bir %player% mantarın aşırı dozundan dolayı öldü."
+
+#================================================== ================================================#
+# LSD yapılandırması:
+#================================================== ================================================#
+lsd_name: "&aLSD"
+lsd_lore: "&aBunu kafayı bulmak için kullanabilirsin."
+lysergic_acid_name: "&aLizerjik Asit"
+lysergic_acid_lore: "&aLSD yaratmak için ona ihtiyacın var."
+sodium_name: "&aSodyum"
+sodium_lore: "&aLSD gibi Uyuşturucular yaratmak için ona ihtiyacın var."
+propanolamine_name: "&aPropanolamin Asit"
+propanolamine_lore: "&aLSD gibi Uyuşturucular yaratmak için ona ihtiyacın var."
+hydrogen_adı: "&eHidrojen"
+hydrogen_Lore: "&eLSD gibi uyuşturucular yaratmak için buna ihtiyacın var."
+lsd_death: "&bir %player% aşırı dozda lsd nedeniyle öldü."
+
+#================================================== ================================================#
+# XTC yapılandırması:
+#================================================== ================================================#
+xtc_name: "&eEcstasy"
+xtc_lore: "&eBunu kafayı bulmak için kullanabilirsin."
+isosafrole_name: "&eIsosafrole"
+isosafrole_lore: "&eXTC oluşturmak için buna ihtiyacınız var."
+safrole_name: "&eSafrole"
+safrole_lore: "&eXTC oluşturmak için buna ihtiyacınız var."
+piperonal_name: "&ePiperonal"
+piperonal_lore: "&eXTC oluşturmak için buna ihtiyacınız var."
+ecstasy_death: "&bir %player% aşırı dozda ecstasy yüzünden öldü."
+
+#================================================== ================================================#
+# Hız yapılandırması:
+#================================================== ================================================#
+speed_name: "&eHız"
+speed_lore: "&eBunu kafayı bulmak için kullanabilirsin."
+phenyl_name: "&eFenil"
+phenyl_lore: "&eHız yaratmak için ona ihtiyacın var."
+speed_death: "&bir %player% aşırı dozda hız yüzünden öldü."
+
+#=================================================================================================#
+# Eroin konfigürasyonu:
+#=================================================================================================#
+heroin_name: "&eeroin"
+heroin_lore: "&eYükselmek için bunu kullanabilirsiniz."
+syringe_name: "&eEnjeksiyon"
+syringe_lore: "&eŞırınganızı doldurmak için buna ihtiyacınız var."
+heroin_liquid_name: "&eEroin sıvısı"
+heroin_liquid_lore: "&eŞırınganızı doldurmak için buna ihtiyacınız var."
+heroin_death: "&e%player% Aşırı dozda eroin yüzünden öldü."
+
+#=================================================================================================#
+# Ekonomi yapılandırması:
+#=================================================================================================#
+not_enough_money: "%prefix% &cYeterli paran yok!"
+buy_success: "%prefix% &aBaşarıyla satın aldınız %amount% %item%!"
+not_enough_items: "%prefix% &aEnvanterinizde satmak için yeterli eşya yok."
+sell_success: "%prefix% &e%amount% için %drugname% %earnings% satışını başarıyla gerçekleştirdiniz!"
+
+#=================================================================================================#
+# Crafting Info configuration:
+#=================================================================================================#
+unkown_drug: "%prefix% &cBilinmeyen ilaç. Mevcut seçenekler %options%"
+gui_border_name: "&4&lGUI Border"
+gui_border_lore: "&4Sadece Sınır, tarifin bir parçası değil.!"
+gui_results_name: "&4Sonuç"
+gui_results_lore: "&4Sonuçlar ->"
+ecstasy_gui_name: "&aEcstasy Crafting GUI"
+isosafrole_gui_name: "&aIsosafrole Crafting GUI"
+piperonal_gui_name: "&aPiperonal Crafting GUI"
+safrole_gui_name: "&aSafrole Crafting GUI"
+heroin_gui_name: "&aHeroin Crafting GUI"
+heroinliquid_gui_name: "&aHeroinliquid Crafting GUI"
+syringe_gui_name: "&aSyringe Crafting GUI"
+hydrogen_gui_name: "&aHydrogen Crafting GUI"
+lsd_gui_name: "&aLSD Crafting GUI"
+lysergicacid_gui_name: "&aLysergicacid Crafting GUI"
+sodium_gui_name: "&aSodium Crafting GUI"
+propanolamine_gui_name: "&aPropanolamine Crafting GUI"
+phenyl_gui_name: "&aPhenyl Crafting GUI"
+speed_gui_name: "&aSpeed Crafting GUI"
+cigarette_gui_name: "&aCigarette Crafting GUI"
+drugtest_gui_name: "&aDrugtest Crafting GUI"
+glue_gui_name: "&aGlue Crafting GUI"
+joint_gui_name: "&aJoint Crafting GUI"
+longpape_gui_name: "&aLongpape Crafting GUI"
+pape_gui_name: "&aPape Crafting GUI"
+zippo_gui_name: "&aZippo Crafting GUI"
+
+#=================================================================================================#
+# Drugtest configuration:
+#=================================================================================================#
+druginfo_end: "&c&l%drug% &e artık ilaç testinde tespit edilemiyor."
+druginfo: "&e&c&l%drug% aldınız ve bu durum uyuşturucu testinde tespit edilebilir."
+drugtest_name: "&eUyuşturucu testi"
+
+#=================================================================================================#
+# Blackmarket configuration:
+#=================================================================================================#
+blackmarket_name: "&eBlackmarket"
+blackmarket_empty: "&eKara Pazar boş"
+blackmarket_no_site: "&eMevcut site yok"
+blackmarket_next_page: "&eSonraki Sayfa"
+blackmarket_back_page: "&eÖnceki Sayfa"
+blackmarket_no_meta: "&cÖğe metası yok!"
+blackmarket_no_lore: "&cÖğe bilgisi yok"
+blackmarket_failed_price: "&cFiyat yüklenemedi"
+blackmarket_purchase_failed:  "&cSatın alma başarısız"
+blackmarket_no_money: "&cYeterli para yok!"
+blackmarket_no_unique_identifier: "&cBenzersiz tanımlayıcı yok"
+blackmarket_not_available: "&cŞu anda mevcut değil"
+blackmarket_no_inv_space:  "&cEnvanter alanınız yok. Satın alma iptal edildi."
+blackmarket_purchase: "&eSatın aldınız:"
+blackmarket_sold: "&eSattınız:"
+blackmarket_sold_off: "&cÇevrimdışıydınız sattınız:"
+blackmarket_only_pl_items: "&cSadece uyuşturucu eklentisi ile uyuşturucu öğeleri satabilirsiniz."
+blackmarket_item_listed: "&eEşyanızı şunun için eklediniz:"
+blackmarket_your_score: "&eToplam satışlarınız:"
+blackmarket_sales_page: "&eSayfa:"
+failed_retrieve_original: "%prefix% §eOrijinal öğe alınamadı."
+invalid_price: "%prefix% Geçersiz fiyat lütfen bir sayı girin."
+
+#=================================================================================================#
+# İzin yapılandırması:
+#=================================================================================================#
+permission_added: "%prefix% &aPermission eklendi: %permission%."
+permission_added_player: "%prefix% &aİzin %permission% &ato %player% eklendi."
+permission_removed: "%prefix% &aİzin kaldırıldı: %izin%"
+permission_removed_player: "%prefix% &aRemoved permission %permission% &afrom %player%"
+invalid_action: "%prefix% &cGeçersiz eylem lütfen ekle/kaldır seçeneğini kullanın"
+
+#=================================================================================================#
+# Hasat komutu yapılandırması:
+#=================================================================================================#
+planted_message: "%prefix% &a%player% %amount% %plant% %action%'a sahip."
+invalid_type: "%prefix% &cGeçersiz tip: %type%"
+top_10: "%prefix% &aTop 10 players by %type% %action%:"
+top_10_player: "%prefix% &a%i% %player%: sayı%"
+invalid_page: "%prefix% &cGeçersiz sayfa"
+players_page: "%prefix% §aPlayers by %type% %action% (Page %page%):"
+
+
+#=================================================================================================#
+# Dil yapılandırması:
+#=================================================================================================#
+supported_languages: "%prefix% &aSupported Languages %languages%"
+language_file_not_found: "%prefix% §cDil dosyası bulunamadı: %language%"
+language_switch_start: "%prefix% &aLanguage switch başladı."
+language_switch_finish: "%prefix% &aLanguage anahtarı tamamlandı."
+error_while_switch: "%prefix% §cDilleri değiştirirken bir hata oluştu."

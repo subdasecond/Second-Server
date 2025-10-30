@@ -1,0 +1,42 @@
+loot:
+  - material: NETHERITE_BLOCK
+    minAmount: 1
+    maxAmount: 3
+    probability: 0.25
+  - material: DIAMOND_HELMET
+    minAmount: 1
+    maxAmount: 1
+    probability: 0.15
+    customName: "&bDiamond Helmet"
+    lore:
+      - "&7A helmet made of the"
+      - "&7most precious material."
+    enchantments:
+      PROTECTION: 2
+  - material: IRON_INGOT
+    minAmount: 3
+    maxAmount: 8
+    probability: 0.5
+  - material: DIAMOND_SWORD
+    minAmount: 1
+    maxAmount: 1
+    probability: 0.1
+    customName: "&6Legendary Sword"
+    lore:
+      - "&6A sword of great power"
+      - "&6and sharpness."
+    enchantments:
+      SHARPNESS: 5
+      UNBREAKING: 3
+  - material: GOLDEN_APPLE
+    minAmount: 1
+    maxAmount: 3
+    probability: 0.3
+  - material: GOLDEN_CARROT
+    minAmount: 12
+    maxAmount: 24
+    probability: 0.6
+  - material: DARK_OAK_LOG
+    minAmount: 16
+    maxAmount: 32
+    probability: 0.9

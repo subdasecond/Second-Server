@@ -1,0 +1,246 @@
+########################################
+# CommandsPlusPlus configuration for 6b9t.net
+#
+# Edited to feature custom branding, advanced
+# color codes, and multi-line formatting.
+########################################
+
+messages:
+  prefix: "&8[&b&l6b9t&f&l.net&8] &7"
+  welcome_prefix: false # Whether to prepend the messages.prefix to welcome lines
+  welcome:
+    - "&7&l&m---------------------------------"
+    - "&f&lWelcome to &b&l6b9t&f&l.net&r&f, the home of pure anarchy!"
+    - ""
+    - " &f- &7Explore our &b&lStore&7: &b6b9t.net/store"
+    - " &f- &7Join the &9&lDiscord&7: &9discord.gg/afGgnsTMSN"
+    - " &f- &7Vote for rewards: &b6b9t.net/vote"
+    - "&7&l&m---------------------------------"
+  title:
+    title: "&b&lWelcome to 6b9t.net"
+    subtitle: "&fEnjoy your stay, %player%!"
+    fade_in: 10
+    stay: 70
+    fade_out: 20
+    png: "" # Optional path relative to the plugin folder for a PNG image
+  teleport_title:
+    title: "&bTeleported!"
+    subtitle: "&fSafe travels, %player%!"
+    fade_in: 10
+    stay: 40
+    fade_out: 20
+    png: "" # Optional path relative to the plugin folder for a PNG image
+  join:
+    - "&7[&a+] &b&l%player% &fhas joined the madness!"
+  quit:
+    - "&7[&c-] &b&l%player% &fhas left the server."
+  no_permission: "&cYou do not have permission to use that command."
+  unknown_command: "&cUnknown command. Please check your spelling."
+  invalid_command: "&cInvalid command usage."
+
+commands:
+  store:
+    lines:
+      - "&f&lSupport the server and unlock exclusive perks!"
+      - "&7Visit our &b&lStore&7: &bhttps://6b9t.net/store"
+    tooltip: "&eClick here to visit the store"
+    url: "https://6b9t.net/store"
+  discord:
+    lines:
+      - "&f&lConnect with the community on Discord!"
+      - "&7Join us here: &9&lhttps://discord.gg/afGgnsTMSN"
+    tooltip: "&eClick here to join our Discord"
+    url: "https://discord.gg/afGgnsTMSN"
+  website:
+    lines:
+      - "&7Check out our official website for more information."
+      - "&7Website: &b&lhttps://6b9t.net"
+    tooltip: "&eClick here to open the website"
+    url: "https://6b9t.net"
+  vote:
+    lines:
+      - "&f&lEarn rewards by voting for the server!"
+      - "&7Vote on our links here: &bhttps://6b9t.net/vote"
+    tooltip: "&eClick here to vote!"
+    url: "https://6b9t.net/vote"
+  coords:
+    lines:
+      - "&aYour current location:"
+      - "&eX: &f%x% &eY: &f%y% &eZ: &f%z%"
+    tooltip: "&eYour current coordinates"
+  rules:
+    lines:
+      - "&c&lSERVER RULES"
+      - "&7This is an anarchy server, but a few rules apply:"
+      - "&71. Do not use server-crashing hacks."
+      - "&72. Be respectful and do not spam chat."
+      - "&73. Absolutely no DDoS or DOXing."
+      - "&7&o&f(Full rules and more info on our website)"
+    tooltip: "&eView the full rules on our website"
+    url: "https://6b9t.net/rules"
+  motd:
+    lines:
+      - "&b&lWelcome back to 6b9t.net!"
+      - "&fThe longest running anarchy server. Go wild."
+    tooltip: "&eView the Message of the Day"
+  players:
+    lines:
+      - "&a&lOnline Players: &f%online%&a/&f%max%"
+      - "&7%players%"
+    tooltip: "&eCurrently connected players"
+  home:
+    lines:
+      - "&7Homes are not enabled on this server."
+      - "&7Use &a/setspawn &7if you have permissions."
+    tooltip: "&eNo homes here!"
+  spawn:
+    lines:
+      - "&7Teleporting to spawn..."
+    tooltip: "&eTeleport to spawn"
+  ping:
+    lines:
+      - "&7Your ping is &a%ping%&7ms"
+    tooltip: "&eCheck your connection speed"
+  uptime:
+    lines:
+      - "&7Server uptime: &a%uptime_readable%"
+    tooltip: "&eHow long the server has been running"
+  map:
+    lines:
+      - "&7View our live map to see the world!"
+      - "&b&lhttps://6b9t.net/map"
+    tooltip: "&eClick to view the live map"
+    url: "https://6b9t.net/map"
+  kits:
+    lines:
+      - "&7Kits are not enabled on this server."
+      - "&7Visit our store to purchase perks."
+    tooltip: "&eNo kits here!"
+    url: "https://6b9t.net/store"
+  donate:
+    lines:
+      - "&7You can help support the server by donating here:"
+      - "&b&lhttps://6b9t.net/donate"
+    tooltip: "&eClick to donate"
+    url: "https://6b9t.net/donate"
+  forums:
+    lines:
+      - "&7Our forums are now integrated into Discord."
+      - "&7Join us to discuss and chat with others!"
+    tooltip: "&eJoin our Discord!"
+    url: "https://discord.gg/afGgnsTMSN"
+  ip:
+    lines:
+      - "&7The server IP is &b6b9t.net"
+    tooltip: "&eThis is the server's IP"
+  staff:
+    lines:
+      - "&7Our amazing staff team:"
+      - "&b- &aAdmin: &fTheOwner"
+      - "&b- &aHelper: &fTheHelper"
+    tooltip: "&eMeet the staff"
+  ts3:
+    lines:
+      - "&7TeamSpeak is not supported on this server."
+      - "&7We use Discord for all voice communication."
+    tooltip: "&eNo TeamSpeak here!"
+    url: "https://discord.gg/afGgnsTMSN"
+  helpcmd:
+    lines:
+      - "&7Use &b/help &7or &b/cmds help &7for help."
+    tooltip: "&eShow help menu"
+
+help:
+  header:
+    - "&7&l&m---------------------------------"
+    - "&f&lCommands &b&l6b9t&f&l.net"
+    - "&7Use &b/cmds help <page>&7 for more pages"
+    - "&7&l&m---------------------------------"
+  footer:
+    - "&7&l&m---------------------------------"
+    - "&7(Page &b%page%&7/&b%pages%&7)"
+    - "&7&l&m---------------------------------"
+  pages:
+    - |
+      &b&lInformation Commands:&r
+      &f- &7/store &8- &fVisit our online store
+      &f- &7/vote &8- &fVote for the server and get rewards
+      &f- &7/discord &8- &fJoin our Discord community
+      &f- &7/website &8- &fVisit our website
+      &f- &7/map &8- &fView the live online map
+      &f- &7/rules &8- &fRead the server rules
+    - |
+      &b&lUtility Commands:&r
+      &f- &7/coords &8- &fShow your current coordinates
+      &f- &7/players &8- &fList all online players
+      &f- &7/ping &8- &fCheck your connection ping
+      &f- &7/uptime &8- &fSee server uptime
+      &f- &7/ip &8- &fDisplay the server IP
+      &f- &7/staff &8- &fMeet the staff team
+      &f- &7/help &8- &fShow this help menu
+    - |
+      &b&lMisc Commands:&r
+      &f- &7/donate &8- &fSupport the server
+      &f- &7/kits &8- &fView available kits
+      &f- &7/home &8- &fLearn about homes
+      &f- &7/spawn &8- &fTeleport to spawn
+      &f- &7/ts3 &8- &fVoice chat information
+
+admin-help:
+  header:
+    - "&7&l&m---------------------------------"
+    - "&c&lAdmin Commands"
+    - "&7Use &b/cmds help <page>&7 for more pages"
+    - "&7&l&m---------------------------------"
+  footer:
+    - "&7&l&m---------------------------------"
+    - "&7(Page &b%page%&7/&b%pages%&7)"
+    - "&7&l&m---------------------------------"
+  pages:
+    - |
+      &c&lManagement:&r
+      &f- &7/cmds reload &8- &fReload plugin configuration
+      &f- &7/cmds status &8- &fShow server and database status
+      &f- &7/cmds purge [hours] &8- &fRemove stale database entries
+    - |
+      &c&lBroadcast:&r
+      &f- &7/broadcast <message...> &8- &fSend a custom broadcast
+      &f- &7/broadcast <number> &8- &fSend a predefined broadcast
+database:
+  server_name: "backend-1"
+  public_ip: ""
+  heartbeat_seconds: 10
+
+broadcast:
+  enabled: true
+  interval: 900
+  messages:
+    - lines:
+        - "&fRemember to join our official &9&lDiscord &fcommunity!"
+        - "&9&ldiscord.gg/afGgnsTMSN"
+      tooltip: "&7Click to open Discord"
+      url: "https://discord.gg/afGgnsTMSN"
+    - lines:
+        - "&fSupport the server and get exclusive perks! Check out our &b&lStore &fby typing &b/store&f."
+      tooltip: "&f&lVisit the &b&l6B9T&f&l.NET &b&lstore!"
+      url: "https://6b9t.net/store"
+    - lines:
+        - "&fThis is an anarchy server. There are very few rules, so you have full freedom."
+        - "&fRead the rules with &c/rules&f."
+
+random_teleport:
+  cooldown_seconds: 60
+  max_attempts: 10
+  worlds:
+    world:
+      center_x: 0
+      center_z: 0
+      radius: 1000
+      min_y: 64
+      max_y: 256
+    world_nether:
+      center_x: 0
+      center_z: 0
+      radius: 1000
+      min_y: 64
+      max_y: 120

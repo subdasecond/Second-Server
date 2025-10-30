@@ -1,0 +1,47 @@
+inventory:
+  name: '&6Legendary Chest &8Page - %i%'
+  # The size must be multiple of 9
+  size: 270
+container:
+  # You can choose between CHEST, BARREL and SHULKER_BOX
+  type: CHEST
+item:
+  name: '&6&lLegendary Chest'
+  lore:
+  - '&7This chest contains a total'
+  - '&7of &6x%size% &7slots'
+hologram:
+  # This functionality requires at least Holographic Displays
+  enable: false
+  title:
+  - ''
+  - ''
+# Put it as -1 if you don't want to display the chest in the shop
+shop-price: 1000
+allow-hoppers-use: true
+previous-page-slot: 4
+next-page-slot: 6
+upgrades:
+  enable: true
+  next_upgrade: example2
+  price: 1000
+  slot: 5
+deposit:
+  enable: false
+settings:
+  enable: false
+  slot: 1
+crafting:
+  enable: true
+  items:
+    A:
+      material: OAK_PLANKS
+      data: 0
+    B:
+      material: IRON_INGOT
+      data: 0
+  recipe:
+  - AAA
+  - ABA
+  - AAA
+chest-type: NORMAL

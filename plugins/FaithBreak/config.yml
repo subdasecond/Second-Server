@@ -1,0 +1,5 @@
+# FaithBreak Configuration
+
+# Debug mode - when set to true, detailed debug messages will be logged to console
+# Set to false to prevent console spam during normal operation
+debug-mode: true

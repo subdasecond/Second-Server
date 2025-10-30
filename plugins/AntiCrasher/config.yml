@@ -1,0 +1,61 @@
+logging:
+  # Log exploit detections to console.
+  console: true
+  # Log exploit detections to a file in the /logs directory.
+  file: true
+  chat:
+    # Log exploit detections to users with the `anticrasher.alerts` permission
+    chatAlerts: true
+
+    # Alerts format for chat alerts. (MiniMessage only)
+    # Available placeholders:
+    # <player_name> - The name of the player who failed the exploit check.
+    # <player_uuid> - The UUID of the player who failed the exploit check.
+    # <player_ip> - The IP of the player who failed the exploit check. Useful for ban cmds without using PAPI (for whatever reason).
+    # <exploit_name> - The name of the exploit that was triggered (e.g. Book, PluginMessage, etc.)
+    # <exploit_type> - The type of the check that was triggered (e.g. A, B, C, D)
+    # <exploit_description> - The description of the exploit that was triggered
+    alertsFormat: <blue><bold>AntiCrasher<reset> <dark_grey>» <red><player_name> <grey>failed
+      <red><exploit_name> <gray>[<red>Type <exploit_type></red>]
+
+    # Format for the hover text of the chat alert.
+    # Same placeholders as above.
+    alertsHoverFormat:
+    - '<gray>Exploit: <red><exploit_name>'
+    - '<gray>Exploit Description: <red><exploit_description>'
+
+punishments:
+  # List of commands to run if someone attempts to abuse an exploit.
+  # Supports PlaceholderAPI placeholders, <player_name> is a built-in placeholder into AntiCrasher.
+  # Do not include the slash at thew beginning of the command.
+  punishments:
+  - ban <player_name> §4Banned for Exploiting.
+  # Should the plugin immediately close the player's connection? This may result in the failure of punishment commands that depend the player to be online.
+  closeConnectionImmediately: true
+
+# Whether or not exploit detections should be sent to Discord as an Embed webhook.
+# Don't know how to create a webhook? See https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+discord:
+  enabled: false
+  # If enabled, this must not be empty.
+  webhookUrl: ''
+  # The avatar image URL for the webhook (Optional)
+  avatarUrl: ''
+  # Thumbnail for the webhook embed. Supports the <player_name> placeholder.
+  thumbnailUrl: http://cravatar.eu/avatar/<player_name>/64.png
+  # HEX color of the embed.
+  color: '#F59314'
+  # Username of the embed (like a member's username, but for webhooks)
+  username: AntiCrasher
+  # The title of the webhook embed.
+  title: Exploit Detected
+
+  # Alerts format for the embed description.
+  # Available placeholders:
+  # <player_name> - The name of the player who triggered the alert
+  # <exploit_name> - The name of the exploit that was triggered (e.g. Book, PluginMessage, etc.)
+  # <exploit_type> - The type of the check that was triggered (e.g. A, B, C, D)
+  # <exploit_description> - The description of the exploit that was triggered
+  description: '**<player_name>** failed <exploit_name> [*Type <exploit_type>*]'
+  # Show the description of the exploit check that the user failed.
+  descriptionField: true

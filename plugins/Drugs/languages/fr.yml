@@ -1,0 +1,254 @@
+#===================================================================================================#
+# Fichier de messages pour le plugin Drugs par Lars_SVW. Version 2.4.0
+#===================================================================================================#
+#
+# Si vous avez besoin d'aide, souhaitez signaler des bugs, etc.,
+# n'hésitez pas à rejoindre mon Discord : http://coding.lars-svw.eu
+#
+# Vous pouvez également m'envoyer des messages privés sur Discord : Lars_SVW
+# Ou écrivez-moi directement sur Spigotmc : https://www.spigotmc.org/members/lars__svw.1064569/
+
+#===================================================================================================#
+# Informations générales:
+#===================================================================================================#
+# Vous pouvez tout modifier ici mais n'oubliez pas le " s'il y en a été donné.
+# Le plugin peut être utilisé sur tous les serveurs possibles.
+# Cependant, le créateur du plugin n'assume aucune responsabilité pour les erreurs ou autres choses qui
+# a à voir avec le plugin. Le plugin ne peut pas être téléchargé à nouveau ni être vendu
+# aux autres utilisateurs ! Si vous avez besoin d'une version différente du plugin, veuillez me contacter
+# en utilisant les options de contact ci-dessus.
+
+#===================================================================================================#
+#Codes couleurs :
+#===================================================================================================#
+# &0 = Noir &a = Vert vif &o = Italique (Cursiv)
+# &1 = Bleu foncé &b = Aqua &r = Réinitialiser
+# &2 = Vert foncé &c = Rouge
+# &3 = Aqua foncé &d = Rose
+# &4 = Rouge foncé &e = Jaune
+# &5 = Violet &f = Blanc
+# &6 = Or &k = Caractères en constante évolution
+# &7 = Gris &l = Gras
+# &8 = Gris foncé &m = Frappe
+# &9 = Indigo &n = Souligné
+
+#===================================================================================================#
+# Configuration générale :
+#===================================================================================================#
+prefix: "&0&l[&a&lDrugs&0&l]"
+false_usage: "%prefix% &cUtilisation incorrecte ! Utilisation correcte : %usage%"
+invalid_drug: "%prefix% &cMédicament non valide spécifié !"
+invalid_amount: "%prefix% &cMontant non valide spécifié !"
+only_players: "%prefix% &cSeuls les joueurs ont l'autorisation d'exécuter cette commande ! Veuillez vous connecter sur le serveur avec un compte !"
+book_name: "&Livre sur les médicaments électroniques"
+drug_book_lore: "&eDrug book du plugin Drugs de Lars_SVW"
+received_book: "%prefix% &eVous avez reçu avec succès le livre de médicaments du plugin Drugs de Lars_SVW. Dans ce livre, vous avez répertorié toutes les recettes !"
+reload_started: "%prefix% &aLe rechargement a commencé !"
+reload_finished: "%prefix% &aLe rechargement est terminé"
+drug_received: "&eVous avez reçu %amount% %drugname%"
+no_authorization: "&cVous n'avez pas les droits pour faire ça !"
+player_not_found : "%prefix% &cPlayer not found !"
+vault_not_installed : "%prefix% §cVault n'est pas installé ! Contactez un administrateur !"
+
+#===================================================================================================#
+# Configuration des mauvaises herbes:
+#===================================================================================================#
+weed_seed_name: "&aGraine de mauvaises herbes"
+weed_name: "&aWeed"
+weed_lore: "&aVous pouvez l'utiliser pour créer un joint"
+weed_seed_lore: "&aVous pouvez utiliser cette graine pour créer une nouvelle herbe."
+joint_name: "&aJoint"
+joint_lore: "&aVous avez besoin d'un Zippo pour l'éclairer."
+weed_death: "&a %player% est mort à cause d'une overdose d'herbe."
+
+#===================================================================================================#
+# Configuration cocaïne:
+#===================================================================================================#
+cocaine_name: "&aCocaïne"
+cocaine_lore: "&aVous pouvez en consommer pour vous sentir high."
+cocaine_seed_name: "&aPlante de cocaïne"
+cocaine_seed_lore: "&aVous pouvez utiliser cette graine pour créer de la nouvelle cocaïne."
+cocaine_death: "&a %player% est mort à cause d'une overdose de cocaïne."
+
+#===================================================================================================#
+# Configuration tabac:
+#===================================================================================================#
+tobacco_seed_name: "&aPlante de tabac"
+tobacco_lore: "&aVous pouvez l'utiliser pour rouler des cigarettes avec."
+tobacco_seed_lore: "&aVous pouvez utiliser cette graine pour créer un nouveau tabac."
+tobacco_name: "&aTobacco"
+cigarette_name: "&aCigarette"
+cigarette_lore: "&aVous pouvez l'utiliser pour planer."
+lung_cancer: "&a %player% est mort à cause d'un cancer du poumon !"
+
+#===================================================================================================#
+# Configuration Papiers + Colle :
+#===================================================================================================#
+papes_name: "&aPapes"
+papes_lore: "&aVous en avez besoin pour rouler une cigarette."
+long_papes_name: "&aLong Papes"
+long_papes_lore: "&aTu en as besoin pour rouler un joint."
+Glue_bottle_name: "&aBouteille de colle"
+Glue_bottle_lore: "&aVous en avez besoin pour créer des papiers longs."
+
+#===================================================================================================#
+#Configuration Zippo:
+#===================================================================================================#
+zippo_name: "&aZippo"
+zippo_lore: "&aVous en avez besoin pour allumer des joints ou des cigarettes."
+need_zippo: "&cVous avez besoin d'un zippo pour éclairer ça !"
+
+#===================================================================================================#
+# Configuration des shrooms:
+#===================================================================================================#
+shroom_name: "&aShrooms"
+shroom_lore: "&aVous pouvez l'utiliser pour planer."
+shroom_death: "&a %player% est mort à cause d'une overdose de champignons."
+
+#===================================================================================================#
+#Configuration LSD:
+#===================================================================================================#
+lsd_name: "&aLSD"
+lsd_lore: "&aVous pouvez l'utiliser pour planer."
+lysergic_acid_name: "&aAcide lysergique"
+lysergic_acid_lore: "&aVous en avez besoin pour créer du LSD."
+sodium_name : "&aSodium"
+sodium_lore: "&aVous en avez besoin pour créer des drogues comme le LSD."
+propanolamine_name: "&aAcide propanolamine"
+propanolamine_lore: "&aVous en avez besoin pour créer des drogues comme le LSD."
+hydrogen_name: "&eHydrogène"
+hydrogen_Lore: "&eVous en avez besoin pour créer des drogues comme le LSD."
+lsd_death: "&a %player% est mort à cause d'une overdose de lsd."
+
+#===================================================================================================#
+#Configuration XTC:
+#===================================================================================================#
+xtc_name: "&eExtase"
+xtc_lore: "&eVous pouvez l'utiliser pour planer."
+isosafrole_name: "&eIsosafrole"
+isosafrole_lore: "&eVous en avez besoin pour créer XTC."
+safrole_name: "&eSafrole"
+safrole_lore: "&eVous en avez besoin pour créer XTC."
+piperonal_name: "&ePiperonal"
+piperonal_lore: "&eVous en avez besoin pour créer XTC."
+ecstasy_death: "&a %player% est mort à cause d'une overdose d'ecstasy."
+
+#===================================================================================================#
+# Configuration de la vitesse:
+#===================================================================================================#
+speed_name: "&eSpeed"
+speed_lore: "&eVous pouvez l'utiliser pour planer."
+phenyl_name: "&ePhényl"
+phenyl_lore: "&eVous en avez besoin pour créer de la vitesse."
+speed_death: "&a %player% est mort à cause d'une overdose de vitesse."
+
+#=================================================================================================#
+# Configuration de l'héroïne:
+#=================================================================================================#
+heroin_name: "&ehéroïne"
+heroin_lore: "&eVous pouvez l'utiliser pour planer."
+syringe_name: "&eInjection"
+syringe_lore: "&eVous en avez besoin pour remplir votre seringue."
+heroin_liquid_name: "&eLiquide d'héroïne"
+heroin_liquid_lore: "&eVous en avez besoin pour remplir votre seringue."
+heroin_death: "&e%player% est décédé des suites d'une overdose d'héroïne."
+
+#=================================================================================================#
+# Configuration économique:
+#=================================================================================================#
+not_enough_money: "%prefix% &cVous n'avez pas assez d'argent !"
+buy_success: "%prefix% &aVous avez acheté avec succès %amount% %item%!"
+not_enough_items: "%prefix% &aVous n'avez pas assez d'objets dans votre inventaire pour les vendre"
+sell_success: "%prefix% &eYou successfully sold %amount% %drugname% for %earnings% !"
+
+#=================================================================================================#
+# Crafting Info configuration:
+#=================================================================================================#
+unkown_drug : "%prefix% &cMédicament inconnu. Options disponibles %options% "
+gui_border_name: "&4&lGUI Border"
+gui_border_lore: "&4Juste la frontière ne fait pas partie de la recette!"
+gui_results_name: "&4Résultat"
+gui_results_lore: "&4Résultats à ->"
+ecstasy_gui_name: "&aEcstasy Crafting GUI"
+isosafrole_gui_name: "&aIsosafrole Crafting GUI"
+piperonal_gui_name: "&aPiperonal Crafting GUI"
+safrole_gui_name: "&aSafrole Crafting GUI"
+heroin_gui_name: "&aHeroin Crafting GUI"
+heroinliquid_gui_name: "&aHeroinliquid Crafting GUI"
+syringe_gui_name: "&aSyringe Crafting GUI"
+hydrogen_gui_name: "&aHydrogen Crafting GUI"
+lsd_gui_name: "&aLSD Crafting GUI"
+lysergicacid_gui_name: "&aLysergicacid Crafting GUI"
+sodium_gui_name: "&aSodium Crafting GUI"
+propanolamine_gui_name: "&aPropanolamine Crafting GUI"
+phenyl_gui_name: "&aPhenyl Crafting GUI"
+speed_gui_name: "&aSpeed Crafting GUI"
+cigarette_gui_name: "&aCigarette Crafting GUI"
+drugtest_gui_name: "&aDrugtest Crafting GUI"
+glue_gui_name: "&aGlue Crafting GUI"
+joint_gui_name: "&aJoint Crafting GUI"
+longpape_gui_name: "&aLongpape Crafting GUI"
+pape_gui_name: "&aPape Crafting GUI"
+zippo_gui_name: "&aZippo Crafting GUI"
+
+
+#=================================================================================================#
+# Drugtest configuration:
+#=================================================================================================#
+druginfo_end: "&c&l%drug% &e n'est plus détectable lors d'un test de dépistage de drogues."
+druginfo: "&eVous avez pris &c&l%drug% &e et cela est détectable lors d'un test de dépistage de drogues."
+drugtest_name: "&eTest de drogue"
+
+#=================================================================================================#
+# Blackmarket configuration:
+#=================================================================================================#
+blackmarket_name: " &enom du marché noir"
+blackmarket_empty: " &eLe Blackmarket est vide "
+blackmarket_no_site: " &ePas d'emplacement disponible "
+blackmarket_next_page: " &ePage suivante "
+blackmarket_back_page: " &ePage précédente "
+blackmarket_no_meta: " &cPas de méta d'article ! "
+blackmarket_no_lore: " &cNo Item lore "
+blackmarket_failed_price: " &cÉchec du chargement du prix"
+blackmarket_purchase_failed:  " &cPurchase failed "
+blackmarket_no_money: " &cPas assez d'argent ! "
+blackmarket_no_unique_identifier: " &cPas d'identifiant unique "
+blackmarket_not_available: " &cPas disponible pour le moment "
+blackmarket_no_inv_space:  " &cVous n'avez pas d'espace d'inventaire. Achat annulé. "
+blackmarket_purchase: " &eVous avez acheté : "
+blackmarket_sold: " &eYou sold : "
+blackmarket_sold_off: " &cYou were offline you sold : "
+blackmarket_only_pl_items: " &cVous ne pouvez vendre des articles de drogue que par le plugin de drogue. "
+blackmarket_item_listed: " &eVous avez inséré votre objet pour "
+blackmarket_your_score: " &eYour total sales are : "
+blackmarket_sales_page: " &ePage : "
+failed_retrieve_original: "%prefix% §eEchec de la récupération de l'objet original. "
+invalid_price:  "%prefix% Invalid price please enter a number. "
+
+#=================================================================================================#
+# Configuration des permissions :
+#=================================================================================================#
+permission_added: "%prefix% &aPermission ajoutée : %permission%."
+permission_added_player: "%prefix% &aAjouté la permission %permission% &ato %player%."
+permission_removed: "%prefix% &aPermission retirée : %permission%"
+permission_removed_player: "%prefix% &aSupprimé la permission %permission% &de %player%"
+action_invalide: "%prefix% &cAction non valide, veuillez utiliser add/remove"
+
+#=================================================================================================#
+# Configuration de la commande de récolte :
+#=================================================================================================#
+planted_message: "%prefix% &a%player% has %amount% %plant% %action%."
+invalid_type: "%prefix% &cType non valide : %type% "
+top_10: "%prefix% &aTop 10 players by %type% %action% : "
+top_10_player: "%prefix% &a%i% %player% : %count% "
+page_invalide: "%prefix% &cPage invalide "
+players_page: "%prefix% §aPlayers by %type% %action% (Page %page%) : "
+
+#=================================================================================================#
+# Configuration de la langue :
+#=================================================================================================#
+supported_languages: "%prefix% &aSupported Languages %languages% "
+language_file_not_found: "%prefix% §cFichier de langue non trouvé : %language%"
+language_switch_start: "%prefix% &aLanguage switch started."
+language_switch_finish: "%prefix% &aLanguage switch finished."
+error_while_switch: "%prefix% §cUne erreur s'est produite lors du changement de langue."

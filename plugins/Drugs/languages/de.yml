@@ -1,0 +1,254 @@
+#=================================================================================================#
+#     Nachrichten Datei für das Plugin Drugs von Lars_SVW. Version 2.4.0
+#=================================================================================================#
+#
+#    Falls du hilfe brauchst melde dich gerne per Discord,
+#    hier ist der Link: http://coding.lars-svw.eu
+#
+#    Du kannst mir auch eine Direktnachricht schreiben auf Discord: Lars_SVW
+#    Oder schreibe mir auf SpigotMc: https://www.spigotmc.org/members/lars__svw.1064569/
+
+#=================================================================================================#
+#   Generelle Informationen:
+#=================================================================================================#
+#   Du kannst alles editieren aber bitte vergesse die " am Anfang und am Ende nicht!
+#   Das Plugin darf auf öffentlichen Servern benutzt werden.
+#   Ich übernehme keine Haftung für jegliche Fehler/buggs die aufgrund meines Plugins auftreten!
+#   Das Plugin darf nicht erneut veröffentlicht werden von jemand anderem als mir noch dazu darf
+#   das Plugin nicht an andere Verkauft werden! Falls du Sonderwünsche bezüglich des Plugins/andere
+#   Plugin wünsche hast schreibe mir diese über die oben genannten Kontaktmöglichkeiten.
+
+#=================================================================================================#
+#   Farb Codes:
+#=================================================================================================#
+#   &0 = Schwarz        &a = Hellgrün       &o = Kursiv
+#   &1 = Dunkelblau     &b = Aqua           &r = Reset
+#   &2 = Dunkelgrün     &c = Rot
+#   &3 = Dunkelaqua     &d = Pink
+#   &4 = Dunkelrot      &e = Gelb
+#   &5 = Lila           &f = Weiß
+#   &6 = Gold           &k = Wechselnde Zeichen
+#   &7 = Grau           &l = Dick geschrieben
+#   &8 = Dunkelgrau     &m = durchgestrichen
+#   &9 = Indigo         &n = Unterstreichen
+
+#=================================================================================================#
+#   Generelle Nachrichten:
+#=================================================================================================#
+prefix: "&0&l[&a&lDrugs&0&l]"
+wrong_usage: "%prefix% &cFalsche Benutzung: &e&l%usage%"
+invalid_drug: "%prefix% &cDu hast eine nicht vorhandende Droge angegeben!"
+invalid_amount: "%prefix% &cDu hast einen ungültigen Betrag angegeben!"
+only_players: "%prefix% &cNur Spieler dürfen diesen Command ausführen!"
+book_name: "&eDrogen Buch"
+drug_book_lore: "&eDas Drogen Buch von dem Plugin Drugs von Lars_SVW"
+received_book: "%prefix% &eDu hast das Drogen Buch erfolgreich erhalten!"
+reload_started: "%prefix% &aDas Plugin wird neugestartet!"
+reload_finished: "%prefix% &aDas Plugin wurde neugestartet"
+drugs_received: "&eDu hast %amount% %drugname% erhalten"
+no_authorization: "&cDu bist nicht berechtigt das zutun!"
+druginfo: "&eDu hast %drug% genommen. Diese Droge ist jetzt auf einem Drogentest nachweisbar!"
+druginfo_end: "&e%drug% ist nicht mehr nachweisbar!"
+player_not_found: "%prefix% &cSpieler nicht gefunden."
+vault_not_installed: "%prefix% &cVault is not installed. Contact an Administrator."
+#=================================================================================================#
+# Weed Konfiguration:
+#=================================================================================================#
+weed_seed_name: "&aWeed"
+weed_name: "&aWeed"
+weed_lore: "&aDu kannst es benutzen um einen Joint herzustellen"
+weed_seed_lore: "&aDu kannst es benutzen um neues Weed herzustellen"
+joint_name: "&aJoint"
+joint_lore: "&aDu kannst ihn benutzen um High zu werden."
+weed_death: "&a %player% ist aufgrund eine Weed überdosis gestorben."
+
+#=================================================================================================#
+# kokain Konfiguration:
+#=================================================================================================#
+cocaine_name: "&aKokain"
+cocaine_lore: "&aBenutze es um High zu werden."
+cocaine_seed_name: "&aKokainpflanze"
+cocaine_seed_lore: "&aDu kannst es benutzen um neues Kokain herzustellen."
+cocaine_death: "&a %player% ist aufgrund einer Kokain überdosis gestorben."
+
+#=================================================================================================#
+# Tabak Konfiguration:
+#=================================================================================================#
+tobacco_seed_name: "&aTabakpflanze"
+tobacco_lore: "&aDu kannst es benutzen um dir eine Zigarette zu drehen."
+tobacco_seed_lore: "&aDu kannst es benutzen um neuen Tabak herzustellen."
+tobacco_name: "&aTabak"
+cigarette_name: "&aZigarette"
+cigarette_lore: "&aDu kannst damit high werden."
+lung_cancer: "&a %player% ist aufgrund von Lungenkrebs gestorben."
+
+#=================================================================================================#
+# Papes und Kleber Konfiguration:
+#=================================================================================================#
+papes_name: "&aPapes"
+papes_lore: "&aDu brauchst sie um eine Zigarette zu drehen."
+long_papes_name: "&aLong Papes"
+long_papes_lore: "&aDu brauchst sie um einen Joint zu bauen."
+glue_bottle_name: "&aKlebeflasche"
+glue_bottle_lore: "&aDu brauchst sie um Long papes herzustellen."
+
+#=================================================================================================#
+# Zippo Konfiguration:
+#=================================================================================================#
+zippo_name: "&aZippo"
+zippo_lore: "&aDu brauchst es um Joints oder Zigaretten anzuzünden."
+need_zippo: "&cDu brauchst ein Zippo um das anzuzünden."
+
+#=================================================================================================#
+# Shroom Konfiguration:
+#=================================================================================================#
+shroom_name: "&aShrooms"
+shroom_lore: "&aDu kannst mit den Shrooms high werden."
+shroom_death: "&a %player% starb aufgrund einer Shroom überdosis."
+
+#=================================================================================================#
+# LSD Konfiguration:
+#=================================================================================================#
+lsd_name: "&aLSD"
+lsd_lore: "&aDu kannst es benutzen um High zu werden.."
+lysergic_acid_name: "&aLysergsäure"
+lysergic_acid_lore: "&aDu brauchst es um Drogen zu produzieren."
+sodium_name: "&aNatrium"
+sodium_lore: "&aDu brauchst es um Drogen zu produzieren."
+propanolamine_name: "&aPropanolaminsäure"
+propanolamine_lore: "&aDu brauchst es um Drogen zu produzieren."
+hydrogen_name: "&eWasserstoff"
+hydrogen_Lore: "&aDu brauchst es um Drogen zu produzieren."
+lsd_death: "&a %player% ist aufgrund einer LSD überdosis gestorben."
+
+#=================================================================================================#
+# XTC Konfiguration:
+#=================================================================================================#
+xtc_name: "&eEcstasy"
+xtc_lore: "&eDu kannst es benutzen um High zu werden."
+isosafrole_name: "&eIsosafrol"
+isosafrole_lore: "&eDu brauchst es um XTC herzustellen."
+safrole_name: "&eSafrol"
+safrole_lore: "&eDu brauchst es um XTC herzustellen."
+piperonal_name: "&ePiperonal"
+piperonal_lore: "&eDu brauchst es um XTC herzustellen."
+ecstasy_death: "&a %player% ist aufgrund einer Ecstasy überdosis gestorben."
+
+#=================================================================================================#
+# Speed Konfiguration:
+#=================================================================================================#
+speed_name: "&eSpeed"
+speed_lore: "&eDu kannst es benutzen um High zu werden."
+phenyl_name: "&ePhenyl"
+phenyl_lore: "&eDu brauchst es um Speed herzustellen."
+speed_death: "&a %player% ist gestorben aufgrund einer Speed überdosis."
+
+#=================================================================================================#
+# Heroin configuration:
+#=================================================================================================#
+heroin_name: "&eHeroin"
+heroin_lore: "&eDu kannst es benutzen um High zu werden."
+syringe_name: "&eSpritze"
+syringe_lore: "&eDu benötigst es um deine Spritze zu befüllen."
+heroin_liquid_name: "&eHeroin Flüssigkeit"
+heroin_liquid_lore: "&eDu benötigst es um deine Spritze zu befüllen."
+heroin_death: "&e%player% ist aufgrund einer Heroin Überdosis gestorben."
+
+#=================================================================================================#
+# Economy configuration:
+#=================================================================================================#
+not_enough_money: "%prefix% &cDu hast nicht genug Geld um dir das zu kaufen!"
+buy_success: "%prefix% &aDu hast erfolgreich %amount% %item% gekauft!"
+not_enough_items: "%prefix% &aDu hast nicht genug Items im Inventar um diese zu verkaufen."
+sell_success: "%prefix% &eDu hast erfolgreich %amount% %drugname% für %earnings% verkauft!"
+
+#=================================================================================================#
+# Crafting Info configuration:
+#=================================================================================================#
+unkown_drug: "%prefix% &cUnbekannte Droge. Verfügbare optionen %options%"
+gui_border_name: "&4&lGUI Border"
+gui_border_lore: "&4Nur die Border, diese kannst du ignorieren!"
+gui_results_name: "&4Ergebniss"
+gui_results_lore: "&4Ergibt ->"
+ecstasy_gui_name: "&aEcstasy Crafting GUI"
+isosafrole_gui_name: "&aIsosafrole Crafting GUI"
+piperonal_gui_name: "&aPiperonal Crafting GUI"
+safrole_gui_name: "&aSafrole Crafting GUI"
+heroin_gui_name: "&aHeroin Crafting GUI"
+heroinliquid_gui_name: "&aHeroinliquid Crafting GUI"
+syringe_gui_name: "&aSyringe Crafting GUI"
+hydrogen_gui_name: "&aHydrogen Crafting GUI"
+lsd_gui_name: "&aLSD Crafting GUI"
+lysergicacid_gui_name: "&aLysergicacid Crafting GUI"
+sodium_gui_name: "&aSodium Crafting GUI"
+propanolamine_gui_name: "&aPropanolamine Crafting GUI"
+phenyl_gui_name: "&aPhenyl Crafting GUI"
+speed_gui_name: "&aSpeed Crafting GUI"
+cigarette_gui_name: "&aCigarette Crafting GUI"
+drugtest_gui_name: "&aDrugtest Crafting GUI"
+glue_gui_name: "&aGlue Crafting GUI"
+joint_gui_name: "&aJoint Crafting GUI"
+longpape_gui_name: "&aLongpape Crafting GUI"
+pape_gui_name: "&aPape Crafting GUI"
+zippo_gui_name: "&aZippo Crafting GUI"
+
+#=================================================================================================#
+# Drugtest configuration:
+#=================================================================================================#
+druginfo_end: "&c&l%drug% &eist nicht mehr nachweisbar"
+druginfo: "&eDu hast &c&l%drug% &egenommen und ist nun nachweisbar in einem Drogentest."
+drugtest_name: "&eDrogentest"
+
+#=================================================================================================#
+# Blackmarket configuration:
+#=================================================================================================#
+blackmarket_name: "&eSchwarzmarkt"
+blackmarket_empty: "&eDer Schwarzmarkt ist leer"
+blackmarket_no_site: "&eKeine verfügbaren Seiten"
+blackmarket_next_page: "&eNächste Seite"
+blackmarket_back_page: "&eVorherige Seite"
+blackmarket_no_meta: "&cKeine item meta!"
+blackmarket_no_lore: "&cKeine item lore"
+blackmarket_failed_price: "&cLaden des Preis´s ist fehlgeschlagen"
+blackmarket_purchase_failed:  "&cKauf fehlgeschlafen"
+blackmarket_no_money: "&cNicht genug geld."
+blackmarket_no_unique_identifier: "&cKein unique identifier"
+blackmarket_not_available: "&cNicht verfügbar im moment"
+blackmarket_no_inv_space:  "&cDu hast keinen Inventar platz der Kauf ist fehlgeschlagen"
+blackmarket_purchase: "&eDu hast gekauft:"
+blackmarket_sold: "&eDu hast verkauft:"
+blackmarket_sold_off: "&cWährend du offline warst hast du folgendes verkauft:"
+blackmarket_only_pl_items: "&cDu kannst nur items verkaufen die in diesem plugin verfügbar sind."
+blackmarket_item_listed: "&eDu hast das item für folgendes Preis inseriert"
+blackmarket_your_score: "&eDeine gesamtverkäufe sind:"
+blackmarket_sales_page: "&eSeite:"
+failed_retrieve_original: "%prefix% §cFehlgeschlagen das orginal Item zubekommen."
+invalid_price: "%prefix% Ungültiger Preis bitte gebe eine Zahl an."
+
+#=================================================================================================#
+# Permission configuration:
+#=================================================================================================#
+permission_added: "%prefix% &aPermission hinzugefügt: %permission%."
+permission_added_player: "%prefix% &aPermission %permission% &ahinzugefügt zu %player%."
+permission_removed: "%prefix% &aPermission entfernt: %permission%"
+permission_removed_player: "%prefix% &aPermission %permission% &aentfernt von %player%"
+invalid_action: "%prefix% &cUngültige option bitte benutze add/remove"
+
+#=================================================================================================#
+# Harvest command configuration:
+#=================================================================================================#
+planted_message: "%prefix% &a%player% hat %amount% %plant% %action%."
+invalid_type: "%prefix% &cUngültiger type: %type%"
+top_10: "%prefix% &aTop 10 Spieler von %type% %action%:"
+top_10_player: "%prefix% &a%i% %player%: %count%"
+invalid_page: "%prefix% &cUngültige Seite"
+players_page: "%prefix% §aSpieler von %type% %action% (Page %page%):"
+
+#=================================================================================================#
+# Language configuration:
+#=================================================================================================#
+supported_languages: "%prefix% &aUnterstütze Sprachen %languages%"
+language_file_not_found: "%prefix% §cSprachdatei nicht gefunden: %language%"
+language_switch_start: "%prefix% &aSprachenwechsel gestartet."
+language_switch_finish: "%prefix% &aSprachenwechsel beendet."
+error_while_switch: "%prefix% §cEin Fehler ist aufgetreten während des Sprachwechsels."

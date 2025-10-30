@@ -1,0 +1,46 @@
+inventory:
+  name: '&4&lExtreme Chest &8Page - %i%'
+  # The size must be multiple of 9
+  size: 315
+container:
+  # You can choose between CHEST, BARREL and SHULKER_BOX
+  type: CHEST
+item:
+  name: '&4&lExtreme Chest'
+  lore:
+  - '&7This chest contains a total'
+  - '&7of &6x%size% &7slots'
+hologram:
+  # This functionality requires at least Holographic Displays
+  enable: true
+  title:
+  - '&8&k..&4&lExtreme Chest&8&k..'
+  - '&6%slots_used%&7/&6%size% &7slots'
+# Put it as -1 if you don't want to display the chest in the shop
+shop-price: -1
+allow-hoppers-use: true
+previous-page-slot: 4
+next-page-slot: 6
+upgrades:
+  enable: false
+  next_upgrade: ''
+  price: 0
+  slot: 5
+deposit:
+  enable: true
+settings:
+  enable: true
+  slot: 1
+crafting:
+  enable: false
+  items:
+    A:
+      material: OAK_PLANKS
+      data: 0
+    B:
+      chest: example
+  recipe:
+  - AAA
+  - ABA
+  - AAA
+chest-type: NORMAL

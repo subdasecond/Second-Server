@@ -1,0 +1,96 @@
+# ============[ADVANCED CHESTS FREE]============= #
+# Love AdvancedChests? Take your experience to the next level with the premium version!
+# By upgrading to AdvancedChests Premium Version, you unlock:
+# Exclusive Features
+# Priority Support
+# Frequent Updates & Enhancements – Stay ahead with the latest improvements
+#
+# Your support helps keep AdvancedChests growing, ensuring more features, updates, and optimizations in the future!
+#
+# Get it now:
+# SpigotMC: https://www.spigotmc.org/resources/79061/
+# BuiltByBit: https://builtbybit.com/resources/15838/
+# PolyMart: http://polymart.org/resource/67
+
+options:
+  timings:
+    save_interval: 3000 # Time in ticks
+    # This option establishes the max amount of time that the loading chests process can take
+    # Add more delay to this option if you are experiencing lag when loading a large amount of chests on the server startup
+    chests_loading_max_delay: 3 # Time in seconds
+  enhancement:
+    # Enabling this option will allow you to use the NBT-API for the chests
+    use_nbtapi: false
+    # This option establishes the economy that will be used in the shop
+    # you can choose between MONEY(Requires Vault),EXPERIENCE(Minecraft experience)
+    shop_economy: MONEY
+    # This option establishes the currency that will be used by the economy
+    shop_economy_currency: ''
+    # This option establishes the economy that will be used in the shop
+    # you can choose between MONEY(Requires Vault) or EXPERIENCE(Minecraft experience)
+    upgrades_economy: MONEY
+    # This option establishes the currency that will be used by the economy
+    # This is useful when you are using ULTRA_ECONOMY
+    upgrades_economy_currency: ''
+    # You can choose between HOLOGRAPHIC_DISPLAYS and DECENT_HOLOGRAMS
+    holograms_plugin: HOLOGRAPHIC_DISPLAYS
+    # Enabling this option will allow the plugin to check for new updates
+    check_updates: true
+    # Enabling this option will allow the chests to remember the last opened page by a player
+    # and reopen it
+    reopen_last_opened_page: false
+    # Put this option on false if you don't want to use the plugin's permissions
+    allow_permissions: true
+    # Replace new placed vanilla chests by a default advanced chest type
+    # Leave this empty if you do not want to use this option
+    default_chest: ''
+  explosions:
+    # Enable or disable advanced chest explosions
+    creeper: false
+    tnt: false
+  actions:
+    # Drop the Advanced chest item
+    onbreak_dropchest: true
+    # Enabling this option the players will receive the chest item directly into their inventories when breaking the block
+    onbreak_dropchest_to_inventory: false
+    # Show a confirmation before breaking a chest
+    # Enable this option to reduce the lag caused by the dropped items
+    onbreak_confirmation: true
+    # Drop items after breaking a chest
+    onbreak_dropcontent: true
+    # Enabling this option the players will have to clear out the chest before breaking it
+    # Enable this option to reduce the lag caused by the dropped items
+    onbreak_wait_for_empty_chest: false
+    # Show a confirmation before upgrading a chest
+    onupgrade_confirmation: true
+  gui:
+    # Enable or disable all the decorative glass panels
+    use_glass_panels: true
+    # Change the color of the glasses in the page selector
+    # (Material damage based)
+    pageselector_color: 7
+    # Change the color of the glasses in the break confirmation gui
+    # (Material damage based)
+    break_confirmation_color: 14
+    # Change the color of the glasses in the upgrade confirmation gui
+    # (Material damage based)
+    upgrade_confirmation_color: 4
+    # Change the color of the glasses in the shop gui
+    # (Material damage based)
+    shop_color: 4
+  events-priorities:
+    # You can choose between [LOW,LOWEST,NORMAL,HIGH,HIGHEST]
+    block_break: HIGH
+    block_place: HIGHEST
+    inventory_move_item: HIGH
+    inventory_click: NORMAL
+    player_interact: HIGHEST
+    entity_explode: HIGH
+  events-call:
+    # Disable all those events you don't need to be handled for a better performance.
+    chest_remove_event: true
+  sounds:
+    volume: 100
+    pitch: 1
+  backups:
+    enable: true

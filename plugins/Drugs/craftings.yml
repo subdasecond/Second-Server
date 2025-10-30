@@ -1,0 +1,268 @@
+#=================================================================================================#
+#     Crafting config for the Drugs Plugin by Lars_SVW. Version 2.3.0
+#=================================================================================================#
+#
+#    If you need help, want to report bugs etc,
+#    feel free to join my Discord: http://coding.lars-svw.de
+#
+#    You can also send me private messages on Discord: Lars_SVW
+#    Or write me directly on Spigotmc: https://www.spigotmc.org/members/lars__svw.1064569/
+
+#=================================================================================================#
+#   General information:
+#=================================================================================================#
+#   You can edit everything here but please don't forget the " if any were given.
+#   The plugin may be used on all possible servers.
+#   However, the plugin creator assumes no liability for errors or other things that
+#   have to do with the plugin. The plugin may not be uploaded again, nor may it be sold
+#   to other users! If you need a different version of the plugin, please contact me
+#   using the contact options above.
+
+#=================================================================================================#
+#   Useful placeholders:
+#=================================================================================================#
+#You can also use items from the Drugs plugin instead of a normal item to use them,
+#please use one of the following placeholders:
+
+#%cocaine%                                    %papes%
+#%cocaineseed%                                %phenyl%
+#%cigarette%                                  %piperonal%
+#%crack%                                      %propanolamine%
+#%drugtest%                                   %safrole%
+#%ecstasy%                                    %shroom%
+#%glue%                                       %speed%
+#%heroin%                                     %sodium%
+#%heroinliquid%                               %syringe%
+#%hydrogen%                                   %tobacco%
+#%isosafrole%                                 %tobaccoseed%
+#%joint%                                      %weed%
+#%longpapes%                                  %weedseed%
+#%lsd%                                        %xtc%
+#%lysergicacid%                               %zippo%
+
+
+#=================================================================================================#
+#   Main Drugs crafting recipes configuration:
+#=================================================================================================#
+ecstasy_material_a: "%isosafrole%"
+ecstasy_material_b: "%piperonal%"
+ecstasy_material_c: "%safrole%"
+ecstasy_material_d: "%piperonal%"
+ecstasy_material_e: "%piperonal%"
+ecstasy_material_f: "%safrole%"
+ecstasy_material_g: "%isosafrole%"
+ecstasy_material_h: "%isosafrole%"
+ecstasy_material_i: "%safrole%"
+
+heroin_material_a: "AIR"
+heroin_material_b: "AIR"
+heroin_material_c: "AIR"
+heroin_material_d: "AIR"
+heroin_material_e: "AIR"
+heroin_material_f: "%syringe%"
+heroin_material_g: "AIR"
+heroin_material_h: "%heroinliquid%"
+heroin_material_i: "AIR"
+
+lsd_material_a: "%propanolamine%"
+lsd_material_b: "AIR"
+lsd_material_c: "%lysergicacid%"
+lsd_material_d: "AIR"
+lsd_material_e: "%sodium%"
+lsd_material_f: "AIR"
+lsd_material_g: "%lysergicacid%"
+lsd_material_h: "AIR"
+lsd_material_i: "%propanolamine%"
+
+meth_material_a: "AIR"
+meth_material_b: "AIR"
+meth_material_c: "AIR"
+meth_material_d: "AIR"
+meth_material_e: "AIR"
+meth_material_f: "AIR"
+meth_material_g: "AIR"
+meth_material_h: "AIR"
+meth_material_i: "AIR"
+
+speed_material_a: "%hydrogen%"
+speed_material_b: "AIR"
+speed_material_c: "%phenyl%"
+speed_material_d: "AIR"
+speed_material_e: "%sodium%"
+speed_material_f: "AIR"
+speed_material_g: "%phenyl%"
+speed_material_h: "AIR"
+speed_material_i: "%hydrogen%"
+
+cigarette_material_a: "%papes%"
+cigarette_material_b: "%papes%"
+cigarette_material_c: "%papes%"
+cigarette_material_d: "%papes%"
+cigarette_material_e: "%tobacco%"
+cigarette_material_f: "%papes%"
+cigarette_material_g: "%papes%"
+cigarette_material_h: "%papes%"
+cigarette_material_i: "%papes%"
+
+joint_material_a: "%longpapes%"
+joint_material_b: "%longpapes%"
+joint_material_c: "%longpapes%"
+joint_material_d: "%longpapes%"
+joint_material_e: "%weed%"
+joint_material_f: "%longpapes%"
+joint_material_g: "%longpapes%"
+joint_material_h: "%longpapes%"
+joint_material_i: "%longpapes%"
+
+#=================================================================================================#
+#   Other important Drugitems crafting recipes configuration:
+#=================================================================================================#
+heroin_liquid_material_a: "AIR"
+heroin_liquid_material_b: "%shroom%"
+heroin_liquid_material_c: "AIR"
+heroin_liquid_material_d: "AIR"
+heroin_liquid_material_e: "DRAGON_EGG"
+heroin_liquid_material_f: "AIR"
+heroin_liquid_material_g: "AIR"
+heroin_liquid_material_h: "ZOMBIE_HEAD"
+heroin_liquid_material_i: "AIR"
+
+isosafrole_material_a: "AIR"
+isosafrole_material_b: "AIR"
+isosafrole_material_c: "AIR"
+isosafrole_material_d: "AIR"
+isosafrole_material_e: "AIR"
+isosafrole_material_f: "AIR"
+isosafrole_material_g: "%safrole%"
+isosafrole_material_h: "%safrole%"
+isosafrole_material_i: "%safrole%"
+
+piperonal_material_a: "DIAMOND"
+piperonal_material_b: "SUGAR"
+piperonal_material_c: "AIR"
+piperonal_material_d: "DIAMOND"
+piperonal_material_e: "SUGAR"
+piperonal_material_f: "AIR"
+piperonal_material_g: "DIAMOND"
+piperonal_material_h: "AIR"
+piperonal_material_i: "AIR"
+
+safrole_material_a: "EMERALD"
+safrole_material_b: "SWEET_BERRIES"
+safrole_material_c: "AIR"
+safrole_material_d: "EMERALD"
+safrole_material_e: "SWEET_BERRIES"
+safrole_material_f: "AIR"
+safrole_material_g: "SWEET_BERRIES"
+safrole_material_h: "AIR"
+safrole_material_i: "AIR"
+
+syringe_material_a: "AIR"
+syringe_material_b: "GLASS"
+syringe_material_c: "AIR"
+syringe_material_d: "GLASS"
+syringe_material_e: "AIR"
+syringe_material_f: "GLASS"
+syringe_material_g: "AIR"
+syringe_material_h: "GLASS"
+syringe_material_i: "AIR"
+
+hydrogen_material_a: "AIR"
+hydrogen_material_b: "AIR"
+hydrogen_material_c: "AIR"
+hydrogen_material_d: "AIR"
+hydrogen_material_e: "WATER_BUCKET"
+hydrogen_material_f: "AIR"
+hydrogen_material_g: "AIR"
+hydrogen_material_h: "TORCH"
+hydrogen_material_i: "AIR"
+
+lysergicacid_material_a: "%sodium%"
+lysergicacid_material_b: "%hydrogen%"
+lysergicacid_material_c: "%sodium%"
+lysergicacid_material_d: "%hydrogen%"
+lysergicacid_material_e: "%sodium%"
+lysergicacid_material_f: "%hydrogen%"
+lysergicacid_material_g: "%sodium%"
+lysergicacid_material_h: "%hydrogen%"
+lysergicacid_material_i: "%sodium%"
+
+sodium_material_a: "SUGAR_CANE"
+sodium_material_b: "AIR"
+sodium_material_c: "SUGAR_CANE"
+sodium_material_d: "AIR"
+sodium_material_e: "DANDELION"
+sodium_material_f: "AIR"
+sodium_material_g: "SUGAR_CANE"
+sodium_material_h: "AIR"
+sodium_material_i: "SUGAR_CANE"
+
+propanolamine_material_a: "%hydrogen%"
+propanolamine_material_b: "%hydrogen%"
+propanolamine_material_c: "%sodium%"
+propanolamine_material_d: "AIR"
+propanolamine_material_e: "%hydrogen%"
+propanolamine_material_f: "AIR"
+propanolamine_material_g: "AIR"
+propanolamine_material_h: "AIR"
+propanolamine_material_i: "AIR"
+
+phenyl_material_a: "SUGAR_CANE"
+phenyl_material_b: "AIR"
+phenyl_material_c: "SUGAR_CANE"
+phenyl_material_d: "AIR"
+phenyl_material_e: "ROSE_BUSH"
+phenyl_material_f: "AIR"
+phenyl_material_g: "SUGAR_CANE"
+phenyl_material_h: "AIR"
+phenyl_material_i: "SUGAR_CANE"
+
+glue_material_a: "AIR"
+glue_material_b: "AIR"
+glue_material_c: "AIR"
+glue_material_d: "GLASS"
+glue_material_e: "SLIME_BALL"
+glue_material_f: "GLASS"
+glue_material_g: "AIR"
+glue_material_h: "GLASS"
+glue_material_i: "AIR"
+
+longpape_material_a: "AIR"
+longpape_material_b: "AIR"
+longpape_material_c: "AIR"
+longpape_material_d: "AIR"
+longpape_material_e: "AIR"
+longpape_material_f: "AIR"
+longpape_material_g: "%papes%"
+longpape_material_h: "%glue%"
+longpape_material_i: "%papes%"
+
+papes_material_a: "AIR"
+papes_material_b: "AIR"
+papes_material_c: "AIR"
+papes_material_d: "AIR"
+papes_material_e: "AIR"
+papes_material_f: "AIR"
+papes_material_g: "PAPER"
+papes_material_h: "PAPER"
+papes_material_i: "PAPER"
+
+zippo_material_a: "IRON_BLOCK"
+zippo_material_b: "AIR"
+zippo_material_c: "IRON_BLOCK"
+zippo_material_d: "IRON_BLOCK"
+zippo_material_e: "FLINT"
+zippo_material_f: "IRON_BLOCK"
+zippo_material_g: "IRON_BLOCK"
+zippo_material_h: "IRON_BLOCK"
+zippo_material_i: "IRON_BLOCK"
+
+drugtest_material_a: "WHITE_TERRACOTTA"
+drugtest_material_b: "WHITE_TERRACOTTA"
+drugtest_material_c: "WHITE_TERRACOTTA"
+drugtest_material_d: "WHITE_TERRACOTTA"
+drugtest_material_e: "GLASS"
+drugtest_material_f: "WHITE_TERRACOTTA"
+drugtest_material_g: "WHITE_TERRACOTTA"
+drugtest_material_h: "WHITE_TERRACOTTA"
+drugtest_material_i: "WHITE_TERRACOTTA"

@@ -1,0 +1,323 @@
+#Enable or disable all ore spawning and recipes
+Enabled: true
+
+#Set if ores should generate in all worlds
+All Worlds: true
+
+#If All Worlds is false, these worlds will still spawn ores (whitelist).
+#If All Worlds is true, these worlds will not spawn ores (blacklist).
+Worlds:
+  -
+  -
+  -
+
+#Worlds on this list will remove any placed ores. They must also be on the blacklist/not on the whitelist.
+Remove Ores:
+  -
+  -
+
+Drop in Creative: false
+
+#Items on this list will break ores instantly.
+Tools:
+  - IRON_PICKAXE
+  - GOLDEN_PICKAXE
+  - DIAMOND_PICKAXE
+  - NETHERITE_PICKAXE
+  
+Silk Touch: true
+
+#These are the blocks that ores can replace when spawning
+Spawn Blocks:
+  - STONE
+  - DIORITE
+  - ANDESITE
+  - GRANITE
+  - DEEPSLATE
+  - TUFF
+  - NETHERRACK
+  - END_STONE
+
+#Instead of placing the ores, ores will be replaced by chests with the ore inside
+Ores as Chests: false
+
+#Only for the pregenerator command.
+WorldBorder: 5000
+#Chunks per tick
+Speed: 20
+
+#The number of ticks between each chunk being cleared using /mo clear <world>
+Clear Speed: 1
+
+#Only used if regionerator is installed. False will wait to generate ores in the chunks affected by regionerator. True will generate them immediately
+Pregeneration Mode: false
+
+#Whether or not ores added in updates will automatically generate
+Auto Generate On Update: true
+
+#Enabled is for enabling or disabling ores
+#Amount is the number of blocks that are replaced with an ore in a chunk.
+#MinY and MaxY are the minimum and maximum height for the ore to spawn at. MinY SHOULD ALWAYS BE LESS THAN MaxY!
+#Smelt Amount is the number of items the ore smelts into
+#Material is the item that the ore smelts into
+Ores:
+  Kelp Ore:
+    Enabled: true
+    Amount: 10
+    MinY: 14
+    MaxY: 100
+    Smelt Amount: 2
+    Material: KELP
+    
+  Petrified Wood:
+    Enabled: true
+    Amount: 5
+    MinY: 25
+    MaxY: 100
+    Smelt Amount: 1
+    Material: OAK_LOG
+    
+  Liquid Ore:
+    Enabled: true
+    Amount: 2
+    MinY: 0
+    MaxY: 30
+    Smelt Amount: 1
+    #Material has to be Liquid Ingot
+    
+  #You can add a Material for all items in the ore catagory except Liquid Ore
+  
+  Liquid Ingot:
+    Enabled: true
+    #Everything else does not apply
+    
+  Scuba Helmet:
+    Enabled: true
+    #Craft Amount is the amount of Scuba Helmets that can be crafted from a turtle helmet surrounded by liquid ingots
+    Craft Amount: 1
+    #Seconds is how long the water breathing
+    Seconds: 20
+
+  Experience Ore:
+    Enabled: true
+    Amount: 2
+    MinY: 5
+    MaxY: 25
+    MinXP: 1
+    MaxXP: 8
+    
+  Random Ore:
+    Enabled: true
+    Amount: 1
+    MinY: 0
+    MaxY: 20
+    #All of the possible drops this ore can have
+    Drops:
+    - redstone
+    - gold ore
+    - coal
+    - iron ore
+    - diamond
+    #The chance of each drop listed above
+    Chance:
+    - 10
+    - 10
+    - 10
+    - 10
+    - 8
+    
+  #Duration is how long the potion will last, but the player may get the effect for less time if they're further away.
+  Potion Ore:
+    Enabled: true
+    Amount: 1
+    MinY: 15
+    MaxY: 30
+    Duration: 10
+    Strength: 1
+    #Potion names can be found at https://jd.andross.fr/spigot-1.13.2-R0.1-SNAPSHOT/javadoc/org/bukkit/potion/PotionEffectType.html#values--
+    Banned Potions:
+    - WITHER
+    - POISON
+    - LUCK
+    - UNLUCK
+    - HARM
+    - SLOW_DIGGING
+
+  Health Ore:
+    Enabled: true
+    Amount: 3
+    MinY: 10
+    MaxY: 50
+    
+  #Health is the amount of health points the Medkit provides
+  #Craft Amount is the amount of Medkits that can be crafted from 4 Health Ores
+  Medkit:
+    Enabled: true
+    Health: 6
+    Craft Amount: 1
+  
+  #Amplifier is the level of absorption the Golden Medkit provides. 1 = 2 hearts and 2 = 4 hearts
+  #Craft Amount is the amount of Golden Medkits that can be crafted from 4 Medkits
+  Golden Medkit:
+    Enabled: true
+    Amplifier: 5
+    Seconds: 120
+    Craft Amount: 1 
+       
+  Bone Ore:
+    Enabled: true
+    Amount: 7
+    MinY: 1
+    MaxY: 125
+    Min Bonemeal: 1
+    Max Bonemeal: 7
+    
+  Fire Ore:
+    Enabled: true
+    Amount: 5
+    MinY: 60
+    MaxY: 125
+    
+  #Craft Amount is the amount of Fire Crystals that can be crafted from 9 Fire Ore
+  #Size is how large the explosion should be.
+  #Fire controls whether or not it will light fires when it explodes
+  #Break Blocks controls whether or not blocks will be broken when it explodes
+  Fire Crystal:
+    Enabled: true
+    Craft Amount: 1
+    Size: 3
+    Fire: true
+    Break Blocks: true
+    Max Distance: 200
+    
+  Pearl Fragment:
+    Enabled: true
+    Amount: 4
+    MinY: 5
+    MaxY: 50
+    
+  Explosive Ore:
+    Enabled: true
+    Amount: 2
+    MinY: 8
+    MaxY: 30
+    Amount: 2
+    #This tool will not cause an explosion
+    Correct Tool: Golden Pickaxe
+    #Size of Explosion
+    Explosion: 2
+    #Will Explosion Cause Fire?
+    Fire: true
+    Smelt Amount: 3
+    Material: Gunpowder
+   
+  #Craft Amount is the amount of Upgraded Pearls that can be crafted from 9 Pearl Fragments
+  Upgraded Pearl:
+    Enabled: true
+    Craft Amount: 1
+    Max Distance: 500
+    
+  #Time is how many seconds the pearl can fly for
+  Rush Pearl:
+    Enabled: true
+    Craft Amount: 1
+    Time: 20
+    
+  Corrupted Ore:
+    Enabled: true
+    Amount: 1
+    MinY: 5
+    MaxY: 200
+    
+  #Chance is the percentage of the time that a corrupted sword applies wither
+  #Duration is how many seconds the withering lasts for
+  #Strength is the level of withering
+  Pure Corruption:
+    Enabled: true
+    Craft Amount: 1
+    Chance: 35
+    Duration: 5
+    Strength: 1
+    
+  #A random item from the items list will be dropped when a player breaks a piece of Hardened End Stone with a diamond pickaxe
+  Hardened End Stone:
+    Enabled: true
+    Amount: 1
+    MinY: 5
+    MaxY: 200
+    Items:
+    - END_CRYSTAL
+    - PHANTOM_MEMBRANE
+    - SHULKER_SHELL
+    - DRAGON_BREATH
+    
+  Ice Ore:
+    Enabled: true
+    Amount: 1
+    MinY: 1
+    MaxY: 20
+    Smelt Amount: 3
+    Material: packed ice
+    
+  Ice Helmet:
+    Enabled: true
+    Craft Amount: 1
+    #The chance of an entity receiving slowness when attacking the player
+    Slowness Chance: 45
+    #How many seconds the slowness last for
+    Slowness Length: 3
+    #The strength of the slowness
+    Slowness Level: 4
+
+Other:
+  Dolphin Pants:
+    Enabled: true
+    Craft Amount: 1
+    Seconds: 20
+    
+  Chestplate of the Drowned:
+    Enabled: true
+    Craft Amount: 1
+    Seconds: 10
+    
+  Noncombustible Boots:
+    Enabled: true
+    Craft Amount: 1
+    #Seconds is how long the player recieves fire resistance for each of the durability points on the boots(65 total)
+    Seconds: 1
+    
+  Unstable TNT:
+    Enabled: true
+    Craft Amount: 1
+    
+  Corrupted Helmet:
+    Enabled: true
+    Craft Amount: 1
+    Speed Chance: 90
+    Slow Chance: 10
+      
+  Corrupted Chestplate:
+    Enabled: true
+    Craft Amount: 1
+    Speed Chance: 90
+    Slow Chance: 10
+      
+  Corrupted Leggings:
+    Enabled: true
+    Craft Amount: 1
+    Speed Chance: 90
+    Slow Chance: 10
+      
+  Corrupted Boots:
+    Enabled: true
+    Craft Amount: 1
+    Speed Chance: 80
+    Slow Chance: 20
+    
+  Ice Boots:
+    Enabled: true
+    Craft Amount: 1
+    #Level of the Frost Walker enchantment on the boots.
+    Frost Walker: 5
+    #Level of the Unbreaking enchantment on the boots.
+    Unbreaking: 2

@@ -1,0 +1,119 @@
+deserteagle_ammo:
+  name: '&8Desert Eagle Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 7
+  actionType: DAMAGE
+
+huntingrifle_ammo:
+  name: '&8Hunting Rifle Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 5
+  actionType: DAMAGE
+
+doublebarreledshotgun_ammo:
+  name: '&8Double-Barreled Shotgun Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 2
+  actionType: DAMAGE
+
+taser_ammo:
+  name: '&8Taser Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 1
+  actionType: DAMAGE
+
+glock_ammo:
+  name: '&8Glock Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 15
+  actionType: DAMAGE
+
+mk7_ammo:
+  name: '&8MK7 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 20
+  actionType: DAMAGE
+
+mp7a1_ammo:
+  name: '&8MP7-A1 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 30
+  actionType: DAMAGE
+
+mcx_ammo:
+  name: '&8MCX Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 25
+  actionType: DAMAGE
+
+m58b_ammo:
+  name: '&8M58B Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 20
+  actionType: DAMAGE
+
+m47d1_ammo:
+  name: '&8M47D1 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 20
+  actionType: DAMAGE
+
+g36c_ammo:
+  name: '&8G36C Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 30
+  actionType: DAMAGE
+
+mk18_ammo:
+  name: '&8MK18 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 25
+  actionType: DAMAGE
+
+m1911_ammo:
+  name: '&8M1911 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 10
+  actionType: DAMAGE
+
+mk2_ammo:
+  name: '&8MK2 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 10
+  actionType: DAMAGE
+
+g45_ammo:
+  name: '&8G45 Ammo'
+  lore:
+  - '&7Ammo: &f<Ammo>'
+  material: IRON_INGOT
+  ammo: 12
+  actionType: DAMAGE

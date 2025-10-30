@@ -1,0 +1,32 @@
+# Multicore Plugin Configuration
+# Download From: https://modrinth.com/plugin/multicore
+# Created by Mitlit @ https://dev.mitl.it
+
+# What should happen upon a player's death? (no more lives)
+# Options: "ban", "spectate"
+deathAction: "ban"
+
+# Should lives be enabled?
+livesEnabled: false
+
+# How many lives should a player start with? (only if lives are enabled)
+lives: 0
+
+# What should be sent to all players when a player dies? (leave blank for nothing)
+# Placeholders: {player}
+deathMessage: "§c{player} has been deathbanned!"
+
+# WARNING: ALL CONFIG PAST THIS POINT WILL NOT BE RELOADED WHEN USING /multicore reload. RESTART THE SERVER TO APPLY CHANGES.
+
+# Do you want to enable the vanilla revival system?
+revivalEnabled: false
+
+# How much it should cost to revive a player using a pre-existing economy system? (leave as "0" to disable) - VAULT REQUIRED
+revivalEconomyCost: 0
+
+
+
+# Example player data (ignore this)
+
+# lives: 0
+# banned: false

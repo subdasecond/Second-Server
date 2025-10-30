@@ -1,0 +1,50 @@
+# >     ___         __             _          ______                __           
+# >    /   |  _  __/ /_____  ____ ( )_____   / ____/___ ___  ____  / /____  _____
+# >   / /| | | |/_/ __/ __ \/ __ \|// ___/  / __/ / __ `__ \/ __ \/ __/ _ \/ ___/
+# >  / ___ |_>  </ /_/ /_/ / / / / (__  )  / /___/ / / / / / /_/ / /_/  __(__  ) 
+# > /_/  |_/_/|_|\__/\____/_/ /_/ /____/  /_____/_/ /_/ /_/\____/\__/\___/____/  
+# >                                                                              
+# >> Axton's Emotes | Configuration
+# For more information, visit: https://github.com/axtonprice/axtons-emotes/wiki/
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# Global Configuration
+# Configure global plugin settings and features:
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# Choose the language for the plugin. To create a custom language, copy and modify the 'en.yml'
+# file. Supported languages include: 'en' (English), 'fr' (Français/French), 'es' (Español/Spanish), 
+# 'it' (Italiano/Italian), 'ru' (Русский/Russian).
+language: en
+
+# Allows players to use shared emote commands on themselves.
+allow-self-executions: false
+
+# Allows players to view a list of all emotes, expressions, and jumpscares available, based on 
+# their permissions.
+allow-list-commands: true
+
+# Configure debug mode, which logs detailed information about command executions. This is useful 
+# for troubleshooting but will result in many console messages.
+debug-mode:
+  # Enable or disable debug mode.
+  enabled: false
+  # Specify whether to log debug messages to a file. Ignored if 'enabled' is false.
+  log-to-file: false
+  # Specify the file name for the debug log. Ignored if 'enabled' is false.
+  log-file: 'debug.log'
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+# Plugin Versioning
+# Configure update checks and notifications:
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# Enables automatic checking for new plugin updates.
+check-for-latest: true
+
+# Notifies players with the 'axtonsemotes.updatenotify' permission when a new update is available.
+notify-on-update: true
+
+# The current version of the plugin.
+# >> DO NOT MODIFY! <<
+config-version: 1.4.0

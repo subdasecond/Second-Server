@@ -1,0 +1,5 @@
+# Whether the MOTD module should be enabled
+enabled: true
+# Message that will be sent to player when they join
+message:
+- <yellow>:smile:</yellow> <white>Welcome back, <blue>$(nickname)</blue>!</white>

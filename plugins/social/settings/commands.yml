@@ -1,0 +1,9 @@
+# /pm
+privateMessage:
+  enabled: true
+  prefix: <dark_gray>[<green>:raw_envelope:</green>]</dark_gray>
+  arrow: <gray>:raw_arrow:</gray>
+  hoverText: <gray>This message is sent through a <green>private channel</green></gray>
+# /reaction
+reaction:
+  enabled: true

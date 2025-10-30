@@ -1,0 +1,40 @@
+# ThunderStick Configuration
+
+# Cooldown settings
+cooldown:
+  # Cooldown time in seconds between lightning strikes per player
+  time: 3
+  # Whether to show cooldown messages to players
+  show-messages: true
+
+# Lightning settings
+lightning:
+  # Whether the lightning actually damages entities (false = visual only)
+  damage: true
+  # Whether to spawn fire from lightning strikes
+  spawn-fire: false
+
+# Particle effects
+particles:
+  # Whether to show particle effects
+  enabled: true
+  # Particle type (options: ELECTRIC_SPARK, ENCHANT, CRIT, etc.)
+  type: ELECTRIC_SPARK
+  # Number of particles to spawn
+  count: 15
+
+# Sound effects
+sounds:
+  # Whether to play sound effects
+  enabled: true
+  # Sound to play on successful lightning strike
+  success: ENTITY_LIGHTNING_BOLT_THUNDER
+  # Sound to play when on cooldown
+  cooldown: BLOCK_NOTE_BLOCK_BASS
+
+# Messages
+messages:
+  cooldown: "&cYou must wait {time} seconds before using ThunderStick again!"
+  lightning-strike: "&6⚡ Lightning strikes your target!"
+  reload: "&aThunderStick configuration reloaded!"
+  info: "&6ThunderStick &7v{version} - Transform golden swords into lightning weapons!"

@@ -1,0 +1,37 @@
+error:
+  no-permission: '&cYou don''t have permission to use this command.'
+  weapon-not-found: '&cThe given weapon type could not be found.'
+  ammo-not-found: '&cThe given ammo type could not be found.'
+  throwable-not-found: '&cThe given throwable type could not be found.'
+  melee-not-found: '&cThe given melee type could not be found.'
+  invalid-integer: '&cThe given integer is invalid.'
+  player-not-found: '&cThe given player could not be found.'
+  ammunition-not-found: '&cAmmunition not found for key: <Key>'
+  out-of-ammo: '&cYour gun is empty!'
+  cannot-use-gunshell-weapons-here: '&cYou cannot use Gunshell weapons here!'
+  loading-configuration: '&cSomething went wrong while loading the configuration files:
+    <Error>'
+common:
+  success:
+    added-to-inventory: '&aSuccessfully added weapon to inventory.'
+    added-ammo-to-inventory: '&aSuccessfully added ammo to inventory.'
+    added-throwable-to-inventory: '&aSuccessfully added throwable to inventory.'
+    added-melee-to-inventory: '&aSuccessfully added melee to inventory.'
+    reloaded-configuration: '&aYou successfully reloaded the configuration files.'
+    loaded-type: '&a<Amount> <Type> has been loaded.'
+  reloading:
+    start: '&aYour weapon is now reloading...'
+    finished: '&aYour weapon has been reloaded.'
+  unloading:
+    finished: '&aYour weapon has been unloaded.'
+  ammo-durability: |-
+    &aDurability: &f<Durability>
+    &aAmmo: &7<Ammo>&8/&7<MaxAmmo>
+  durability: '&aDurability: &f<Durability>'
+  bullet:
+    hit-other: '&cYou''ve hit &4<Name> &cwith your shot.'
+    hit-other-headshot: '&cYou''ve hit &4<Name> &cwith a headshot.'
+    hit-by-player: '&cYou''ve been shot by &4<Name>&c.'
+    shot-last: '&cYou''ve shot the last bullet in your magazine.'
+  melee:
+    hit-by-player: '&cYou''ve been hit by &4<Name>&c.'

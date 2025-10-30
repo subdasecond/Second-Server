@@ -1,0 +1,49 @@
+# Temperature999 Configuration
+
+# List of biome names considered hot
+hot_biomes:
+  - "DESERT"
+  - "NETHER_WASTES"
+  - "BADLANDS"
+  - "SAVANNA"
+  - "WINDSWEPT_SAVANNA"
+  - "CRIMSON_FOREST"
+  - "WARM_OCEAN"
+
+# List of biome names considered cold  
+cold_biomes:
+  - "SNOWY_PLAINS"
+  - "ICE_SPIKES"
+  - "FROZEN_OCEAN"
+  - "DEEP_FROZEN_OCEAN"
+  - "FROZEN_RIVER"
+  - "SNOWY_BEACH"
+  - "SNOWY_SLOPES"
+
+# Update interval in ticks (20 ticks = 1 second)
+update_interval_ticks: 100 # 5 seconds
+
+# Temperature change rates (per update interval)
+rates:
+  normal: 0.0       # Neutral biomes
+  water: -2.0       # When in water  
+  hot_biome: 2.0    # Hot biomes 
+  cold_biome: -1.0  # Cold biomes 
+  near_fire: 4.0    # Near campfire/furnace 
+
+# Display settings
+display:
+  xp_bar:
+    enabled: true    # Show temperature in XP bar
+  chat:
+    enabled: false   # Show periodic temperature messages
+
+# Damage settings  
+damage:
+  freezing:
+    threshold: 20    # Take damage when below this temp
+    damage_per_second: 1.0
+    
+  burning:
+    threshold: 80    # Take damage when above this temp  
+    damage_per_second: 1.0

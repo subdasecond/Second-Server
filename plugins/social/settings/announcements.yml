@@ -1,0 +1,15 @@
+# Whether announcements should be enabled
+enabled: false
+# Announcement frequency in seconds (300 seconds = 5 minutes)
+frequency: 300
+# Announcements will be sent in sequential order
+messages:
+- message: <gray>This is a test announcement! <blue><click:open_url:https://i.ytimg.com/vi/TK4I4RTOjQo/maxresdefault.jpg>Click
+    here :smiling_face:</click></blue>.</gray>
+  channels:
+  - global
+- message: <gray>This is an <red>exclusive</red> announcement</gray>
+  channels:
+  - staff
+# Enabling this will make announcements show in the action bar instead of using chat channels
+useActionBar: false

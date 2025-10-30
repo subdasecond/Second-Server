@@ -1,0 +1,39 @@
+# Allowed mobs:
+# https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+# You can use any of these entities, just add them to the config like the others are :)
+
+# How to set custom scale for any entity?
+# Choose entity that you want to change scale for.
+# For example
+# CREEPER: 0.5
+# Change scale(0.5) to how much you want
+# For example 1.5, it should look like this:
+# CREEPER: 1.5
+
+# Now just get back to game and type /minimobs reload
+# And you are done :)
+
+
+allowed-mobs:
+  ZOMBIE: 0.5
+  BLAZE: 0.5
+  CREEPER: 0.5
+  SKELETON: 0.5
+  STRAY: 0.5
+  WITHER_SKELETON: 0.5
+  ZOMBIE_VILLAGER: 0.5
+  SHULKER: 0.5
+  PILLAGER: 0.5
+  PIGLIN_BRUTE: 0.5
+  HUSK: 0.5
+  PHANTOM: 0.5
+  ZOMBIFIED_PIGLIN: 0.5
+  ENDERMAN: 0.5
+
+spawnchance: 2 #in percents
+
+messages:
+  prefix: "#1CBB00[#2eff69MiniMobs#1CBB00] "
+  no-permission: "#FF0000You don't have permission to execute this command!"
+  not-enough-arguments: "#FF0000Not enough arguments! (Available arguments: reload)"
+  config-reloaded: "#36FF00Config has been reloaded"

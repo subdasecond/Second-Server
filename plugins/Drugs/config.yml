@@ -1,0 +1,241 @@
+#=================================================================================================#
+#     Config file for the Drugs Plugin by Lars_SVW. Version 2.4.0
+#=================================================================================================#
+#
+#    If you need help, want to report bugs etc,
+#    feel free to join my Discord: http://coding.lars-svw.eu
+#
+#    You can also send me private messages on Discord: Lars_SVW
+#    Or write me directly on Spigotmc: https://www.spigotmc.org/members/lars__svw.1064569/
+
+#=================================================================================================#
+#   General information:
+#=================================================================================================#
+#   You can edit everything here but please don't forget the " if any were given.
+#   The plugin may be used on all possible servers.
+#   However, the plugin creator assumes no liability for errors or other things that
+#   have to do with the plugin. The plugin may not be uploaded again, nor may it be sold
+#   to other users! If you need a different version of the plugin, please contact me
+#   using the contact options above.
+
+#=================================================================================================#
+#   Color Codes and Time Info:
+#=================================================================================================#
+#   &0 = Black        &a = Bright Green   &o = Italic(Cursiv)           Time Disclaimer:
+#   &1 = Dark Blue    &b = Aqua           &r = Reset                    In some config setting you
+#   &2 = Dark Green   &c = Red                                          can change the "cooldown"
+#   &3 = Dark Aqua    &d = Pink                                         or time in general
+#   &4 = Dark Red     &e = Yellow                                       you need to set the time in
+#   &5 = Purple       &f = White                                        seconds so here are some
+#   &6 = Gold         &k = Constantly changing characters               helpful times
+#   &7 = Gray         &l = Bold                                         1min = 60s,5min=300s
+#   &8 = Dark Gray    &m = Strike                                       10min = 600s, 30min = 1800s
+#   &9 = Indigo       &n = Underline                                    1h = 3600s, 1d = 86400
+#
+#=================================================================================================#
+#   All Minecraft Potion Effects:
+#=================================================================================================#
+#   1.ABSORPTION            16.INCREASE_DAMAGE    31.WITHER
+#   2.BAD_OMEN              17.INVISIBILITY
+#   3.BLINDNESS             18.JUMP
+#   4.CONDUIT_POWER         19.LEVITATION
+#   5.CONFUSION             20.LUCK
+#   6.DAMAGE_RESISTANCE     21.NIGHT_VISION
+#   7.DOLPHINS_GRACE        22.POISON
+#   8.FAST_DIGGING          23.REGENERATION
+#   9.FIRE_RESISTANCE       24.SATURATION
+#   10.GLOWING              25.SLOW_DIGGING
+#   11.HARM                 26.SLOW_FALLING
+#   12.HEAL                 27.SPEED
+#   13.HEALTH_BOOST         28.UNLUCK
+#   14.HERO_OF_THE_VILLAGE  29.WATER_BREATHING
+#   15.HUNGER               30.WEAKNESS
+#=================================================================================================#
+# General configuration:
+# Short information for example 0.05 = 5%, 0.10 = 10%, 0.5 = 50%, 1 = 100%
+#=================================================================================================#
+version: 2.1.0
+prefix: "&0&l[&a&lDrugs&0&l]"
+shrooms_chance: 0.03
+tobacco_chance: 0.1
+cocaine_chance: 0.01
+weed_chance: 0.03
+
+
+#=================================================================================================#
+# Weed configuration:
+#=================================================================================================#
+joint_duration: 30
+joint_effect_1: "SLOW"
+joint_effect_2: "HUNGER"
+joint_effect_3: "DAMAGE_RESISTANCE"
+weed_kill: 0.1
+Weed_value_detectable: 600 #10min
+#=================================================================================================#
+# Cocaine configuration:
+#=================================================================================================#
+cocaine_duration: 20
+cocaine_effect_1: "SPEED"
+cocaine_effect_2: "REGENERATION"
+cocaine_effect_3: "DAMAGE_RESISTANCE"
+cocaine_kill: 0.1
+Cocaine_value_detectable: 600 #10min
+#=================================================================================================#
+# Tobacco configuration:
+#=================================================================================================#
+tobacco_duration: 30
+tobacco_effect_1: "SLOW"
+tobacco_effect_2: "HUNGER"
+tobacco_effect_3: "DAMAGE_RESISTANCE"
+cigarette_kill: 0.1
+Tobacco_value_detectable: 600 #10min
+#=================================================================================================#
+# Shroom configuration:
+#=================================================================================================#
+shrooms_duration: 30
+shrooms_effect_1: "CONFUSION"
+shrooms_effect_2: "ABSORPTION"
+shrooms_effect_3: "SPEED"
+shroom_kill: 0.1
+Shroom_value_detectable: 600 #10min
+#=================================================================================================#
+# LSD configuration:
+#=================================================================================================#
+lsd_duration: 30
+lsd_effect_1: "HEALTH_BOOST"
+lsd_effect_2: "ABSORPTION"
+lsd_effect_3: "SPEED"
+lsd_kill: 0.1
+LSD_value_detectable: 600 #10min
+
+#=================================================================================================#
+# XTC configuration:
+#=================================================================================================#
+xtc_duration: 60
+xtc_effect_1: "SPEED"
+xtc_effect_2: "INCREASE_DAMAGE"
+xtc_effect_3: "HEALTH_BOOST"
+ecstasy_kill: 0.1
+XTC_value_detectable: 600 #10min
+
+#=================================================================================================#
+# Speed configuration:
+#=================================================================================================#
+speed_duration: 60
+speed_effect_1: "SPEED"
+speed_effect_2: "INCREASE_DAMAGE"
+speed_effect_3: "HEALTH_BOOST"
+speed_kill: 0.1
+Speed_value_detectable: 600 #10min
+
+#=================================================================================================#
+# Heroin configuration:
+#=================================================================================================#
+heroin_duration: 180
+heroin_effect_1: "SPEED"
+heroin_effect_2: "INCREASE_DAMAGE"
+heroin_effect_3: "HEALTH_BOOST"
+heroin_kill: 0.25
+Heroin_value_detectable: 600 #10min
+
+#=================================================================================================#
+# Economy configuration:
+#=================================================================================================#
+hydrogen_price: 100
+lsd_price: 400
+lysergicacid_price: 100
+sodium_price: 100
+propanolamine_price: 100
+cigarette_price: 400
+glue_price: 100
+joint_price: 400
+longpapes_price: 100
+papes_price: 100
+zippo_price: 900
+weedseed_price: 10
+cocaineseed_price: 10
+tobaccoseed_price: 10
+weed_price: 200
+shroom_price: 400
+cocaine_price: 500
+tobacco_price: 400
+xtc_price: 400
+isosafrole_price: 100
+piperonal_price: 100
+safrole_price: 100
+speed_price: 500
+phenyl_price: 100
+heroinliquid_price: 100
+heroin_price: 500
+syringe: 100
+
+Sell:
+  hydrogen:
+    Price: 50
+  lsd:
+    Price: 200
+  lysergicacid:
+    Price: 50
+  sodium:
+    Price: 50
+  propanolamine:
+    Price: 50
+  cigarette:
+    Price: 200
+  glue:
+    Price: 50
+  joint:
+    Price: 200
+  longpapes:
+    Price: 50
+  papes:
+    Price: 50
+  zippo:
+    Price: 450
+  weedseed:
+    Price: 5
+  cocaineseed:
+    Price: 5
+  tobaccoseed:
+    Price: 50
+  weed:
+    Price: 100
+  shroom:
+    Price: 200
+  cocaine:
+    Price: 250
+  tobacco:
+    Price: 200
+  xtc:
+    Price: 200
+  isosafrole:
+    Price: 50
+  piperonal:
+    Price: 50
+  safrole:
+    Price: 50
+  speed:
+    Price: 250
+  phenyl:
+    Price: 50
+  heroinliquid:
+    Price: 50
+  heroin:
+    Price: 250
+  syringe:
+    Price: 50
+
+#=================================================================================================#
+# Economy configuration:
+#=================================================================================================#
+blackmarket_expiration_time: 86400 #24 hours (pls type in seconds)
+#Resourcepack
+#If you want to connect it to another texture pack on your server and add your own download link, you can do that here.
+#I recommend changing this in the config otherwise all downloads will be made via my website!
+Resourcepack: true
+resource_pack_url: "https://www.lars-svw.eu/downloads/Drugs_by_Lars_SVW.zip"
+resource_pack_hash: "c805f5e17fab00dfbcc4450d831aad256be8eded"
+#Not relevant#
+first_start: true
+
+

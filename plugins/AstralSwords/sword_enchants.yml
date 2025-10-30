@@ -1,0 +1,42 @@
+skyfall_blade:
+  sharpness: 8
+  unbreaking: 4
+dragons_wrath:
+  sharpness: 8
+  unbreaking: 4
+  fire_aspect: 5
+shadowbane:
+  sharpness: 8
+  unbreaking: 4
+  bane_of_arthropods: 5
+thunderstrike:
+  sharpness: 8
+  unbreaking: 4
+  looting: 5
+venom_edge:
+  sharpness: 8
+  unbreaking: 4
+  sweeping_edge: 5
+eclipse_blade:
+  sharpness: 8
+  unbreaking: 4
+  sweeping_edge: 5
+soul_reaver:
+  sharpness: 8
+  unbreaking: 4
+phoenix_talon:
+  sharpness: 8
+  unbreaking: 4
+  fire_aspect: 5
+wardens_oath:
+  sharpness: 8
+  unbreaking: 4
+windblade:
+  sharpness: 8
+  unbreaking: 4
+power_house:
+  sharpness: 8
+  unbreaking: 4
+  knockback: 3
+  smite: 5
+  wind_burst: 3

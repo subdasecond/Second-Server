@@ -1,0 +1,131 @@
+# Whether the emoji module should be enabled
+enabled: true
+# Text that appears when hovering over an emoji to indicate its aliases
+hoverTextAliases: <blue>Alias(es):</blue> <gray>%s</gray>
+# Text that appears when hovering over an emoji to let the player know that they can shift-click to insert the emoji
+hoverTextInsertion: <dark_gray>Shift and click to insert in chatbox</dark_gray>
+# You can add your own emojis or remove the default ones too
+emojis:
+- name: airplane
+  aliases: []
+  unicodeCharacter: ✈
+- name: arrow
+  aliases: []
+  unicodeCharacter: ➡
+- name: ballot_box
+  aliases: []
+  unicodeCharacter: ☐
+- name: ballot_box_with_x
+  aliases: []
+  unicodeCharacter: ☒
+- name: bow
+  aliases: []
+  unicodeCharacter: 🏹
+- name: box_up_and_right
+  aliases: []
+  unicodeCharacter: └
+- name: checkmark
+  aliases: []
+  unicodeCharacter: ✔
+- name: check_box_with_check
+  aliases: []
+  unicodeCharacter: ☑
+- name: cloud
+  aliases: []
+  unicodeCharacter: ☁
+- name: comet
+  aliases: []
+  unicodeCharacter: ☄
+- name: copyright
+  aliases: []
+  unicodeCharacter: ©
+- name: dagger
+  aliases:
+  - sword
+  unicodeCharacter: 🗡
+- name: envelope
+  aliases:
+  - mail
+  unicodeCharacter: ✉
+- name: frowning_face
+  aliases:
+  - frowning
+  - sad
+  unicodeCharacter: ☹
+- name: heart
+  aliases:
+  - <3
+  unicodeCharacter: ❤
+- name: heart_exclamation
+  aliases: []
+  unicodeCharacter: ❣
+- name: hourglass
+  aliases: []
+  unicodeCharacter: ⌛
+- name: multiply
+  aliases:
+  - x
+  unicodeCharacter: ✖
+- name: music
+  aliases: []
+  unicodeCharacter: ♪
+- name: peace
+  aliases: []
+  unicodeCharacter: ☮
+- name: pencil
+  aliases: []
+  unicodeCharacter: ✎
+- name: play
+  aliases:
+  - divider
+  unicodeCharacter: ▶
+- name: registered
+  aliases: []
+  unicodeCharacter: ®
+- name: reverse
+  aliases: []
+  unicodeCharacter: ◀
+- name: scissors
+  aliases: []
+  unicodeCharacter: ✂
+- name: shield
+  aliases: []
+  unicodeCharacter: 🛡
+- name: skull
+  aliases: []
+  unicodeCharacter: ☠
+- name: smiling_face
+  aliases:
+  - smiling
+  - smile
+  unicodeCharacter: ☺
+- name: snowflake
+  aliases: []
+  unicodeCharacter: ❄
+- name: snowman
+  aliases: []
+  unicodeCharacter: ☃
+- name: star
+  aliases: []
+  unicodeCharacter: ★
+- name: sun
+  aliases: []
+  unicodeCharacter: ☀
+- name: trademark
+  aliases:
+  - tm
+  - trade_mark
+  unicodeCharacter: ™
+- name: umbrella
+  aliases: []
+  unicodeCharacter: ☂
+- name: warning
+  aliases: []
+  unicodeCharacter: ⚠
+- name: watch
+  aliases:
+  - clock
+  unicodeCharacter: ⌚
+- name: ying_yang
+  aliases: []
+  unicodeCharacter: ☯

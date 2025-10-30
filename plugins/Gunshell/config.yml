@@ -1,0 +1,8 @@
+config-version: '1.0'
+per-weapon-cooldown: true
+hitbox-increase: 0.2
+protection-damage-reduction:
+  enabled: true
+  amount: 5
+raytrace-particle:
+  enabled: true

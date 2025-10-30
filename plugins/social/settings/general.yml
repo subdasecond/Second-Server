@@ -1,0 +1,15 @@
+# Enabling this will send more logs to console to help debugging
+debug: false
+# Whether to enable the update checker or not
+updateChecker: true
+# Time interval of the update checker in hours
+updateCheckerIntervalInHours: 6
+# Date format to use in menus and other text fields (mainly chat history)
+dateFormat: MM-dd hh:mm
+# Emoji tab completion in chat
+chatEmojiTabCompletion: true
+# Keyword tab completion in chat
+chatKeywordTabCompletion: true
+
+# Modifying this can result in data loss
+migrationVersion: 1

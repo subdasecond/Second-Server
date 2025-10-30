@@ -1,0 +1,8 @@
+# Database type (SQLITE, MYSQL or MARIADB)
+type: SQLITE
+# Time between each cache clean in minutes
+cacheClearInterval: 5
+# Don't change this, you might lose all your data
+initialized: true
+# Don't change this, you might lose all your data
+databaseVersion: 2

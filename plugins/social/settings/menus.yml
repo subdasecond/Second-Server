@@ -1,0 +1,57 @@
+# Settings for the emoji dictionary (/social dictionary emojis)
+emojiDictionary:
+  # The header of this menu
+  header:
+  - ╒═══════════╕
+  - ' |         ᴇᴍᴏᴊɪѕ         |'
+  - ╒═══════════╕
+  # Max amount of emojis that will be shown per page
+  maxEmojisPerPage: 2
+  copyToClipboard: <gray>Click to copy to clipboard</gray>
+  category: <dark_gray>Category</dark_gray>
+
+# Settings for the keyword dictionary (/social dictionary keywords)
+keywordDictionary:
+  # The header of this menu
+  header:
+  - ╒═══════════╕
+  - ' |       ᴋᴇʏᴡᴏʀᴅѕ       |'
+  - ╒═══════════╕
+  # Max amount of keywords that will be shown per page
+  maxKeywordsPerPage: 3
+  copyToClipboard: <gray>Click to copy to clipboard</gray>
+  result: <dark_gray>Result</dark_gray>
+
+# Settings for the player information menu (/social info <player>)
+playerInfo:
+  # The header of this menu
+  header:
+  - ╒═══════════╕
+  - ' |        ᴘʟᴀʏᴇʀ         |'
+  - ╒═══════════╕
+  alias: <dark_gray>Alias</dark_gray>
+  username: <dark_gray>Username</dark_gray>
+  mainChannel: <dark_gray>Main Channel</dark_gray>
+  messageCount: <blue>[Messages]</blue>
+  visibleChannels: <blue>[Channels]</blue>
+  status: <blue>[Status]</blue>
+  visibleChannelsHoverText: <gray>Channels visible by this player:</gray>
+  clickToSeeMessageHistory: <gray>Click to see this player's message history</gray>
+
+# Settings for the chat history (/social history)
+chatHistory:
+  # The header of this menu
+  header:
+  - ╒═══════════╕
+  - ' |        ʜɪѕᴛᴏʀʏ        |'
+  - ╒═══════════╕
+  # Max amount of messages that will be shown per page
+  maxMessagesPerPage: 6
+  # Text that will be used to display the current history scope
+  scope: <dark_gray>Scope:</dark_gray>
+  # Text that will be used to display a message's context
+  context: <blue>Context:</blue>
+  contextChannel: Channel
+  contextReplyTo: Reply to
+  clickToOpenGlobalHistory: <gray>Click here to return to the global history</gray>
+  clickToOpenThreadHistory: <gray>Click here to open this thread</gray>

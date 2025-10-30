@@ -1,0 +1,132 @@
+skyfall_blade:
+  recipe:
+    '0': ELYTRA
+    '1': NETHER_STAR
+    '2': ELYTRA
+    '3': SHULKER_SHELL
+    '4': NETHERITE_INGOT
+    '5': SHULKER_SHELL
+    '6': END_CRYSTAL
+    '7': STICK
+    '8': END_CRYSTAL
+  enabled: true
+dragons_wrath:
+  recipe:
+    '0': DRAGON_HEAD
+    '1': DRAGON_BREATH
+    '2': DRAGON_HEAD
+    '3': DRAGON_BREATH
+    '4': NETHERITE_INGOT
+    '5': DRAGON_BREATH
+    '6': END_CRYSTAL
+    '7': STICK
+    '8': END_CRYSTAL
+  enabled: true
+shadowbane:
+  recipe:
+    '0': WITHER_SKELETON_SKULL
+    '1': ECHO_SHARD
+    '2': WITHER_SKELETON_SKULL
+    '3': WITHER_ROSE
+    '4': NETHERITE_INGOT
+    '5': WITHER_ROSE
+    '6': SCULK_CATALYST
+    '7': STICK
+    '8': SCULK_CATALYST
+  enabled: true
+thunderstrike:
+  recipe:
+    '0': BEACON
+    '1': LIGHTNING_ROD
+    '2': BEACON
+    '3': HEART_OF_THE_SEA
+    '4': NETHERITE_INGOT
+    '5': HEART_OF_THE_SEA
+    '6': CONDUIT
+    '7': STICK
+    '8': CONDUIT
+  enabled: true
+venom_edge:
+  recipe:
+    '0': FERMENTED_SPIDER_EYE
+    '1': WITHER_SKELETON_SKULL
+    '2': FERMENTED_SPIDER_EYE
+    '3': SPIDER_EYE
+    '4': NETHERITE_INGOT
+    '5': SPIDER_EYE
+    '6': POISONOUS_POTATO
+    '7': STICK
+    '8': POISONOUS_POTATO
+  enabled: true
+eclipse_blade:
+  recipe:
+    '0': END_CRYSTAL
+    '1': DRAGON_HEAD
+    '2': END_CRYSTAL
+    '3': CHORUS_FLOWER
+    '4': NETHERITE_INGOT
+    '5': CHORUS_FLOWER
+    '6': PURPUR_BLOCK
+    '7': STICK
+    '8': PURPUR_BLOCK
+  enabled: true
+soul_reaver:
+  recipe:
+    '0': TOTEM_OF_UNDYING
+    '1': NETHER_STAR
+    '2': TOTEM_OF_UNDYING
+    '3': SOUL_LANTERN
+    '4': NETHERITE_INGOT
+    '5': SOUL_LANTERN
+    '6': SOUL_SAND
+    '7': STICK
+    '8': SOUL_SAND
+  enabled: true
+phoenix_talon:
+  recipe:
+    '0': MAGMA_BLOCK
+    '1': FIRE_CHARGE
+    '2': MAGMA_BLOCK
+    '3': BLAZE_ROD
+    '4': NETHERITE_INGOT
+    '5': BLAZE_ROD
+    '6': ANCIENT_DEBRIS
+    '7': STICK
+    '8': ANCIENT_DEBRIS
+  enabled: true
+wardens_oath:
+  recipe:
+    '0': SCULK_SENSOR
+    '1': SCULK_SHRIEKER
+    '2': SCULK_SENSOR
+    '3': ECHO_SHARD
+    '4': NETHERITE_INGOT
+    '5': ECHO_SHARD
+    '6': SCULK_CATALYST
+    '7': STICK
+    '8': SCULK_CATALYST
+  enabled: true
+windblade:
+  recipe:
+    '0': WIND_CHARGE
+    '1': HEAVY_CORE
+    '2': WIND_CHARGE
+    '3': TRIAL_KEY
+    '4': NETHERITE_INGOT
+    '5': TRIAL_KEY
+    '6': WIND_CHARGE
+    '7': BREEZE_ROD
+    '8': WIND_CHARGE
+  enabled: true
+power_house:
+  recipe:
+    '0': ANVIL
+    '1': NETHERITE_BLOCK
+    '2': ANVIL
+    '3': OBSIDIAN
+    '4': NETHERITE_INGOT
+    '5': OBSIDIAN
+    '6': IRON_BLOCK
+    '7': STICK
+    '8': IRON_BLOCK
+  enabled: true

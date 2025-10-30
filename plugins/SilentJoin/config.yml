@@ -1,0 +1,4 @@
+enableEffect: true
+effectType: "TOTEM"
+enableSound: true
+soundType: "ENTITY_ENDERMAN_TELEPORT"

@@ -1,0 +1,71 @@
+broadcast:
+  server-prefix: '<green>[Server]</green> » '
+error:
+  cannot-be-repaired: <red>That item cannot be repaired</red>
+  curse-of-binding: <red>You currently are wearing something with curse of binding!
+    Sorry!</red>
+  hat-not-allowed: <red>Hats of this type are not allowed</red>
+  invalid-command: <red>Sorry, that subcommand is invalid. Please check your syntax
+    and try again</red>
+  invalid-number: <red>Sorry, you did not enter a valid flyspeed, please try again</red>
+  invalid-player: <red>That is not a valid player. Please check your spelling and
+    try again</red>
+  must-be-player: <red>You must be a player to run this command</red>
+  must-hold-item: <red>You must be holding item to rename</red>
+  name-too-long: <red>Sorry, that item name is too long! The max characters for an
+    item name is <value></red>
+  no-hat-items: <red>You must be holding an item or have an item in your helmet slot
+    to use this command</red>
+  no-permission: <red>You do not have permission to run this command</red>
+  not-enough-arguments: <red>You did not provide enough arguments. Please check your
+    syntax and try again</red>
+  not-in-range: <red>Sorry, you must provide a number between <min> and <max></red>
+feed:
+  other: <green>You have fed <target></green>
+  self: <green>You have been fed</green>
+fly:
+  by-other: <green>Your fly has been <value></green>
+  other: <target>'s fly has been <value>
+  own: Your fly has been <value>
+godmode:
+  get:
+    other: <yellow><target>'s God-Mode is currently <value></yellow>
+    self: <yellow>God-Mode is currently <value></yellow>
+  other: <yellow>God-Mode has been <value> for <target></yellow>
+  self: <yellow>God-Mode has been <value></yellow>
+hat:
+  removed: <gray>Your hat has been returned to your inventory</gray>
+  success: <green>Enjoy your new hat!</green>
+heal:
+  other: <green>You have healed <target></green>
+  self: <green>You have been healed</green>
+insertion:
+  disabled: <red>disabled</red>
+  enabled: <green>enabled</green>
+  flyspeed: <yellow>flyspeed</yellow>
+  item: |2-
+
+    <gray>• <lang:<item>></gray>
+  prefix: '<green>[<yellow>SF</yellow>]</green> '
+  walkspeed: <yellow>walkspeed</yellow>
+plugin-messages:
+  config-reloaded: <gold>Config Reloaded</gold>
+rename:
+  successful: <green>Successfully renamed <item> to <name></green>
+repair:
+  header: <aqua><u>Repaired Items</u></aqua>
+  no-items-repaired: <gray>No items were able to be repaired</gray>
+  other: <green><hover:show_text:'<items>'>You have repaired <target>'s items!</hover><green>
+  self: <green><hover:show_text:'<items>'>Your items have been repaired!</hover></green>
+speed:
+  get:
+    other: <grey><target>'s current <speedtype> is <value></grey>
+    own: <grey>Your <speedtype> is currently set to <value></grey>
+  reset:
+    by-other: <green>Your <speedtype> has been reset by <initiator></green>
+    other: <green><target>'s <speedtype> has been reset</green>
+    own: <green>Your <speedtype> has been reset</green>
+  set:
+    by-other: <green>Your <speedtype> has been set to <value> by <initiator></green>
+    other: <green>You set <target>'s <speedtype> to <value></green>
+    own: <green>Your <speedtype> has been set to <value></green>

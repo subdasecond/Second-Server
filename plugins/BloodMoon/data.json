@@ -1,0 +1,56 @@
+{
+  "HELMET": {
+    "material_name": "AIR",
+    "enchantments": [
+      {
+        "ENCHANTMENT": "minecraft:binding_curse",
+        "LEVEL": 1
+      }
+    ]
+  },
+  "CHESTPLATE": {
+    "material_name": "AIR",
+    "enchantments": [
+      {
+        "ENCHANTMENT": "minecraft:binding_curse",
+        "LEVEL": 1
+      }
+    ]
+  },
+  "LEGGINGS": {
+    "material_name": "AIR",
+    "enchantments": [
+      {
+        "ENCHANTMENT": "minecraft:binding_curse",
+        "LEVEL": 1
+      }
+    ]
+  },
+  "BOOTS": {
+    "material_name": "AIR",
+    "enchantments": [
+      {
+        "ENCHANTMENT": "minecraft:binding_curse",
+        "LEVEL": 1
+      }
+    ]
+  },
+  "MAINHAND": {
+    "material_name": "AIR",
+    "enchantments": [
+      {
+        "ENCHANTMENT": "minecraft:binding_curse",
+        "LEVEL": 1
+      }
+    ]
+  },
+  "OFFHAND": {
+    "material_name": "AIR",
+    "enchantments": [
+      {
+        "ENCHANTMENT": "minecraft:binding_curse",
+        "LEVEL": 1
+      }
+    ]
+  }
+}

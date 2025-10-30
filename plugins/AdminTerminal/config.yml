@@ -1,0 +1,49 @@
+# config.yml
+
+constants:
+  at_prefix: "§f[§9AT§f] §6"
+  at: "§9AT§f"
+
+messages:
+  unknown_command: "Please enter /at help to view the operation guide."
+  help: "Please enter /at help to view the operation guide."
+  config_reload_successfully: "Configuration file reloaded successfully!"
+  platform: "Current server operating system: "
+  directory_changed: "Directory changed to: "
+  directory_not_found: "Directory not found "
+  process_killed: "Terminated all processes created by the plugin (%d in total)."
+  command_error: "Error occurred while executing command: "
+  unknown_error: "Unknown command. Please enter /at help to view available commands."
+  command_nonprovided: "No command provided!"
+  load_command_error: "Failed to load system command: "
+  alarm_on: "System command execution alert enabled."
+  alarm_off: "System command execution alert disabled."
+
+consolelog:
+  platform: "Current server operating system: "
+  execution_warning: "%s is attempting to use a system command: "
+
+help:
+  help: |
+    §6======== §9AdminTerminal Ver %s §6========
+    §e/at alarm - Enable or disable system command execution alerts
+    §e/at help - Show this help message
+    §e/at platform - Display server operating system information
+    §e/at cd <directory> - Change the current working directory
+    §e/at execute <command> - Execute a system command
+    §e/at killall - Terminate all processes created by the plugin
+    §e/at reload - Reload the configuration file
+
+settings:
+  force_english: true
+  remove_ansi_escape_sequences: true
+  use_alarm: true
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+# Whether reactions should be enabled
+enabled: true
+# Disable this if you don't want reactions to be triggered by certain words
+useTriggerWords: true
+# Duration of the reaction in seconds
+durationInSeconds: 3
+# Update interval in ticks (20 ticks = 1 second)
+updateIntervalInTicks: 1
+# Reaction height offset
+offsetY: 0.6
+# You can add your own reactions or remove the default ones too!
+reactions:
+- name: SURPRISED
+  texture: https://textures.minecraft.net/texture/9d2920406b136385d2ce35d64f0183ea74ff268368cdf3d02031c06de37c434
+  sound: minecraft:block.note_block.bass
+  particle: minecraft:bubble_pop
+  triggerWords:
+  - :o
+  - :0
+- name: SMILE
+  texture: https://textures.minecraft.net/texture/4d8257956e3876da0af97a1117ed814b720b4d045fd52bed85f74113523eacb7
+  sound: minecraft:block.note_block.bell
+  particle: minecraft:electric_spark
+  triggerWords:
+  - :)
+  - '(:'
+- name: GRIN
+  texture: https://textures.minecraft.net/texture/5059d59eb4e59c31eecf9ece2f9cf3934e45c0ec476fc86bfaef8ea913ea710
+  sound: minecraft:block.chain.break
+  particle: minecraft:firework
+  triggerWords:
+  - :D
+- name: WINK
+  texture: https://textures.minecraft.net/texture/f4ea2d6f939fefeff5d122e63dd26fa8a427df90b2928bc1fa89a8252a7e
+  sound: minecraft:block.note_block.flute
+  particle: minecraft:white_smoke
+  triggerWords:
+  - ;)
+- name: SAD
+  texture: https://textures.minecraft.net/texture/21dff48846d1524273859d717729556f626fa5f2185a1c322e723325263f09c
+  sound: minecraft:block.amethyst_block.break
+  particle: minecraft:ash
+  triggerWords:
+  - :(
+- name: ANGRY
+  texture: https://textures.minecraft.net/texture/b1d4bea366aca58dd5b22e940bcdd4ba45bf88421f6d831158b879f2c8abce18
+  sound: minecraft:entity.generic.burn
+  particle: minecraft:angry_villager
+  triggerWords:
+  - '>:('
+- name: LAUGHING
+  texture: https://textures.minecraft.net/texture/8ad2b4e48959498c3bfb2d149874edbf9a0cfbadceb54ad259aa40706dda1b6c
+  sound: minecraft:item.brush.brushing.sand
+  particle: minecraft:item_snowball
+  triggerWords:
+  - xD
+- name: NEUTRAL
+  texture: https://textures.minecraft.net/texture/35a46f8334e49d273384eb72b2ac15e24a640d7648e4b28c348efce93dc97ab
+  triggerWords:
+  - :/
+  - ._.
+- name: HEART
+  texture: https://textures.minecraft.net/texture/2869bdd9a8f77eeff75d8f67ed0322bd9c16dd494972314ed707dd10a3139a58
+  sound: minecraft:block.note_block.pling
+  particle: minecraft:heart
+  triggerWords:
+  - <3
+- name: CRYING
+  texture: https://textures.minecraft.net/texture/3255846467f33937db9f43cdfb34a0dfd12f57522e8a988e458b5ac3c134e
+  sound: minecraft:block.water.ambient
+  particle: minecraft:splash
+  triggerWords:
+  - T_T
+  - :'(
+- name: THINKING
+  texture: https://textures.minecraft.net/texture/1fea99ad95b570175fda25c3a69788d6a9b854aa13f8a5ff63f6efedf581dfb6
+  sound: minecraft:block.note_block.bit
+  particle: minecraft:dust_plume
+  triggerWords:
+  - hmm

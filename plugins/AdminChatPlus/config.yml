@@ -1,0 +1,16 @@
+# AdminChatPlus Configuration
+
+# The prefix shown in admin chat messages
+adminChatPrefix: "&c[AdminChat] &f"
+
+# The format of admin chat messages
+# Available placeholders:
+# {player} - The name of the sender
+# {message} - The message content
+adminChatFormat: "&c[AdminChat] &f{player}: &7{message}"
+
+# Permission required to use admin chat commands and see admin chat messages
+adminChatPermission: "adminchatplus.use"
+
+# Permission required to toggle admin chat mode
+adminChatTogglePermission: "adminchatplus.toggle"

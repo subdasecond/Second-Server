@@ -1,0 +1,15 @@
+messages:
+  prefix: "&8[&c&lAdmin&f&lMenu&8] "
+  no-permission: "%prefix%&c&lAccès refusé! &7Vous n'avez pas la permission d'utiliser cette commande."
+  menu:
+    ban-success: "%prefix%&c&lJoueur &f%player% &c&la été banni avec succès!"
+    kick-success: "%prefix%&e&lJoueur &f%player% &e&la été expulsé avec succès!"
+    chat-enabled: "%prefix%&a&lLe chat a été activé par un administrateur."
+    chat-disabled: "%prefix%&c&lLe chat a été désactivé par un administrateur."
+    chat-cleared: "%prefix%&e&lLe chat a été effacé par &f%player%"
+    teleport-success: "%prefix%&5&lTéléportation vers &f%player% &5&lréussie!"
+    gamemode-changed: "%prefix%&a&lMode de jeu défini sur &f%gamemode%&a&l!"
+    server-restarting: "%prefix%&c&lLe serveur redémarrera dans &f%seconds% &c&lsecondes!"
+    server-reloading: "%prefix%&6&lLe serveur est en cours de rechargement..."
+    weather-changed: "%prefix%&b&lMétéo définie sur &f%weather%&b&l!"
+    time-changed: "%prefix%&e&lHeure définie sur &f%time%&e&l!"

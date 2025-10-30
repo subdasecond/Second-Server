@@ -1,0 +1,96 @@
+# Whether the chat module should be enabled
+enabled: true
+# Default channel that every player should have access to when they join
+defaultChannel: global
+# Text that appears when hovering over a message's channel icon
+channelHoverText: $(channel_icon) <gray>Click here to switch to channel $(channel)</gray>
+# Command that will be suggested when a player clicks on another player's nickname
+clickableNicknameCommand: 'pm $(username) '
+# Text that appears when hovering over a player's name
+clickableNicknameHoverText: $(private_message_prefix) <gray>Click here to message
+  <blue>$(nickname)</blue></gray>
+# Text that appears when hovering over a player's name when they have a nickname
+playerAliasWarningHoverText: $(warning_prefix) <gray>This player is using an alias.
+  Their real username is <blue>$(username)</blue></gray>
+# You can add placeholders such as the player's rank
+playerNicknameFormat: $(clickable_nickname)
+# Icon that appears when a player replies to a message
+replyIcon: <blue>:raw_box_up_and_right:</blue>
+# Brief text that appears right after the reply icon
+replyDescriptor: <dark_gray>(#$(reply_id))</dark_gray>
+# Text that appears when hovering over a message reply
+replyHoverText: <dark_gray>Click here to reply to <gray>$(nickname)</gray>'s message</dark_gray>
+# Add or remove channels according to your server's needs
+channels:
+- name: global
+  color: '#FFFF55'
+  commands:
+  - global
+  - g
+  icon: <dark_gray>[<yellow>:raw_pencil:</yellow>]</dark_gray>
+  showHoverText: true
+  hoverText:
+  - This is the global channel
+  nicknameColor: '#D3D3D3'
+  textDivider: <gray>:raw_divider:</gray>
+  textColor: '#FFFFFF'
+  joinByDefault: true
+- name: staff
+  inherit: global
+  color: '#FF5555'
+  permission: social.admin
+  commands:
+  - staff
+  - s
+  icon: <dark_gray>[<red>:raw_pencil:</red>]</dark_gray>
+  hoverText:
+  - This channel is restricted to staff members
+  nicknameColor: '#FFFF55'
+# Whether mentions should be enabled or disabled
+mentions: true
+# Sound that will be played to the mentioned player
+mentionSound: block.chain.place
+# Whether text formatting options for players should be enabled
+# This will allow using colors and text decoration tags to players with permission social.text-formatting
+playerFormatOptions: true
+# Groups module
+groups:
+  # Whether the groups module should be enabled
+  enabled: true
+  # Player limit per group
+  playerLimit: 8
+  # Text that will be shown when a player hovers over the channel's code
+  codeHoverText: <yellow>:raw_pencil:</yellow> <gray>Click here to copy to clipboard</gray>
+  # Group channel color (used in some messages)
+  color: '#AAAAAA'
+  # Group channel icon
+  icon: <dark_gray>[<gray>:raw_shield:</gray>]</dark_gray>
+  # Whether to show text when hovering over the icon or not
+  showHoverText: true
+  # Text that will be shown when hovering over the icon
+  hoverText:
+  - '<yellow>:raw_sword:</yellow> <gray>Leader: <white>$(group_leader)</white></gray>'
+  - <dark_gray>This is a group channel.</dark_gray>
+  # Group nickname color
+  nicknameColor: '#FFFFFF'
+  # Character that delimits the actual player's message
+  textDivider: <gray>:raw_play:</gray>
+  # Group text color
+  textColor: '#FFFFFF'
+# Filter module
+filter:
+  # Whether the filter module should be enabled
+  enabled: true
+  # Whether the built-in IP filter should be enabled
+  ipFilter: true
+  # Whether the built-in URL filter should be enabled
+  urlFilter: true
+  # Whether the built-in flood/spam filter should be enabled
+  floodFilter: true
+  # Time in milliseconds that a player has to wait before sending another message
+  floodFilterCooldownInMilliseconds: 1000
+  # Words or sentences in this section will also be filtered
+  literalFilter:
+  - example sentence that should not be said
+  # You can also create your own custom regex filters
+  customRegexFilter: []

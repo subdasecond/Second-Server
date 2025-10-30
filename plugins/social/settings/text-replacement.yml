@@ -1,0 +1,9 @@
+# Whether the text replacement module should be enabled
+# This allows filters, emojis and keywords to be used in signs, books, anvils...
+enabled: true
+# Whether to replace text in anvils or not
+anvil: true
+# Whether to replace text in books or not
+books: true
+# Whether to replace text in signs or not
+signs: true

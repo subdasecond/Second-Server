@@ -1,0 +1,119 @@
+# MobScaler Configuration - PRODUCTION VERSION
+# Plugin version: 1.0.0
+# Author: DeLaRosa
+
+# ================================
+# PLUGIN SETTINGS
+# ================================
+plugin:
+  # Enable or disable the plugin
+  enabled: true
+  
+  # Enable debug mode for detailed logging (ONLY for testing/troubleshooting)
+  debug: false
+  
+  # PRODUCTION SETTING: Disable ALL debug console logs for better performance
+  # When true, NO debug messages will be printed, even if debug: true
+  # This saves CPU cycles from string concatenation and I/O operations
+  disable-all-debug-logs: true
+  
+  # Enable metrics collection (bStats)
+  metrics: true
+  
+  # Enable automatic update checking
+  update-check: true
+
+# ================================
+# PERFORMANCE SETTINGS
+# ================================
+performance:
+  # Maximum number of scaled mobs per chunk
+  max-scaled-mobs-per-chunk: 50
+  
+  # Interval in seconds for performance checks
+  check-interval: 300
+  
+  # Enable optimized mode for high-population servers
+  # This reduces some features to improve performance
+  optimized-mode: false
+
+# ================================
+# EVOLUTION SETTINGS - PRODUCTION VALUES
+# ================================
+evolution:
+  # Minimum age (in seconds) before a mob can evolve
+  min-age-seconds: 1
+  
+  # Maximum age (in seconds) after which evolution is no longer possible
+  max-age-seconds: 20
+  
+  # How often to check for evolution candidates (in seconds)
+  check-interval-seconds: 10
+  
+  # Enable evolution system (safer than spawn-time scaling)
+  enabled: true
+
+# ================================
+# SCALING SETTINGS
+# ================================
+scaling:
+  # Global chance multiplier (affects all mob evolution chances)
+  # 1.0 = normal, 0.5 = half chance, 2.0 = double chance
+  global-chance-multiplier: 1.0
+  
+  # Protect evolved undead mobs from burning in sunlight
+  protect-from-burning: true
+
+# ================================
+# WORLD SETTINGS
+# ================================
+worlds:
+  # Use whitelist mode (only enabled worlds) or blacklist mode (all except disabled)
+  whitelist-mode: false
+  
+  # List of enabled worlds (only used in whitelist mode)
+  enabled:
+    - world
+    - world_nether
+    - world_the_end
+  
+  # List of disabled worlds (only used in blacklist mode)
+  disabled:
+    - creative_world
+    - spawn_world
+
+# ================================
+# INTEGRATION SETTINGS
+# ================================
+integrations:
+  # WorldGuard integration
+  worldguard:
+    enabled: true
+    respect-mob-spawning-flag: true
+    use-custom-flag: false
+  
+  # PlotSquared integration
+  plotsquared:
+    enabled: true
+    allow-in-plots: true
+    allow-in-roads: false
+
+# ================================
+# MESSAGES
+# ================================
+messages:
+  # Message when plugin is reloaded
+  reload-success: "&aConfiguration reloaded successfully!"
+  reload-failed: "&cFailed to reload configuration!"
+  
+  # Message when plugin is toggled
+  plugin-enabled: "&aMobScaler has been enabled!"
+  plugin-disabled: "&cMobScaler has been disabled!"
+  
+  # No permission message
+  no-permission: "&cYou don't have permission to use this command!"
+  
+  # Debug messages (only shown when debug enabled AND debug logs not disabled)
+  debug:
+    mob-scaled: "&7[DEBUG] Scaled %mob% to %scale%x at %location%"
+    mob-died: "&7[DEBUG] Scaled %mob% died, gave %exp% experience"
